@@ -2,8 +2,8 @@ SMuFL for Glyphs 4
 Copyright 2026 Shinianqi (拾廿七)
 
 This product includes material derived from the SMuFL Specification and from
-two other third-party projects. The notices below are required by their
-licenses and must be kept in redistributions.
+other third-party projects. The notices below are required by their licenses
+and must be kept in redistributions.
 
 --------------------------------------------------------------------------------
 1. SMuFL Specification (data/)
@@ -63,7 +63,7 @@ These files are derived from Bravura's redist/Bravura.json:
     Bravura, Copyright (c) Steinberg Media Technologies GmbH
     SIL Open Font License 1.1
 
-They are distributed under the SIL Open Font License 1.1, not under the
+These files are distributed under the SIL Open Font License 1.1, not under the
 Apache License 2.0. The license text is in
 data/third-party/bravura/LICENSE-OFL-1.1.txt. They are reference data only;
 no Bravura font software is included.

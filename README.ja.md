@@ -77,4 +77,12 @@ Python 標準ライブラリのみ使用します。サイドバー構成は
 ## ライセンス
 
 Apache-2.0（[`LICENSE`](LICENSE)）。第三者への表示は [`NOTICE`](NOTICE)：
-SMuFL（FSA）、GlyphsSDK（Apache-2.0）、Bravura（OFL-1.1、参照 JSON 2 件のみ）。
+SMuFL（FSA）、GlyphsSDK（Apache-2.0）、Bravura 参照データ（OFL-1.1）、
+Naruto アイコン（© YH & Kiyoaki）。
+
+## クレジット
+
+[SMuFL](https://www.w3.org/community/music-notation/)、
+[GlyphsSDK](https://github.com/schriftgestalt/GlyphsSDK)、
+[Bravura](https://github.com/steinbergmedia/bravura)、Naruto 音楽フォント
+（サイドバーのアイコン）。

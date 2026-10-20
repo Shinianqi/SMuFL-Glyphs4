@@ -36,8 +36,6 @@ if [ "$STATUS" -eq 0 ]; then
 else
     echo "安装失败。请在“终端”手动运行："
     echo "  $PY -m pip install --user pyobjc-framework-Cocoa"
-    echo "如果仍失败，可尝试："
-    echo "  sudo $PY -m pip install pyobjc-framework-Cocoa"
 fi
 
 echo

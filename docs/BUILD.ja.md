@@ -20,16 +20,16 @@ python3 tools/build_all.py
 出力は決定的です。生成物はコミット済みなので、利用者が Python を実行する必要は
 ありません。
 
-## SMuFL の更新
+## SMuFL データの更新
 
 ```bash
-python3 tools/fetch_upstream.py --ref v1.5
+python3 tools/fetch_upstream.py --ref <tag-or-commit>
 python3 tools/build_all.py
 git diff --stat data/
 ```
 
 `fetch_upstream.py` は GitHub contents API を使い、`VERSION.json` と
-`SHA256SUMS` も更新します。
+`SHA256SUMS` も更新します。現在のデータは `gh-pages` 上の 1.5 draft に追従しています。
 
 ## インストールとパッケージ
 
@@ -68,5 +68,5 @@ SMUFL_EXPORTER_NO_MAIN=1 python3 -m unittest discover -s tests -v
 リーフにグリフ一覧は含まれません。グリフは公式データから取得します。
 
 > `Flags` の名前の末尾にはゼロ幅スペース（U+200B）があります。Glyphs の
-> `categories.strings` が `Flags` をローカライズするため、この文字で回避して
-> サイドバーには `Flags` と表示させています。編集時に削除しないでください。
+> `categories.strings` が `Flags` を「旗」にローカライズするため、この文字で
+> 回避してサイドバーには `Flags` と表示させています。編集時に削除しないでください。

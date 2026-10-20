@@ -19,15 +19,16 @@ python3 tools/build_all.py
 
 输出是确定性的，生成结果已提交，用户不需要运行 Python。
 
-## 更新 SMuFL
+## 更新 SMuFL 数据
 
 ```bash
-python3 tools/fetch_upstream.py --ref v1.5
+python3 tools/fetch_upstream.py --ref <tag-or-commit>
 python3 tools/build_all.py
 git diff --stat data/
 ```
 
 `fetch_upstream.py` 走 GitHub contents API，会更新 `VERSION.json` 和 `SHA256SUMS`。
+当前数据跟随 `gh-pages` 上的 1.5 draft。
 
 ## 发布包
 

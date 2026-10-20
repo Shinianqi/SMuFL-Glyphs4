@@ -93,5 +93,12 @@ Standard library only. Sidebar structure lives in
 ## License
 
 Apache-2.0, see [`LICENSE`](LICENSE). Third-party notices in [`NOTICE`](NOTICE):
-SMuFL (FSA), GlyphsSDK (Apache-2.0), Bravura (OFL-1.1, two reference JSON files
-only).
+SMuFL (FSA), GlyphsSDK (Apache-2.0), Bravura reference data (OFL-1.1), Naruto
+icons (© YH & Kiyoaki).
+
+## Credits
+
+[SMuFL](https://www.w3.org/community/music-notation/),
+[GlyphsSDK](https://github.com/schriftgestalt/GlyphsSDK),
+[Bravura](https://github.com/steinbergmedia/bravura), Naruto music font
+(sidebar icons).

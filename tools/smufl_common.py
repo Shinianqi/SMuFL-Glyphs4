@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
-"""Shared helpers for the SMuFL for Glyphs 4 data build.
+"""Shared helpers for the data build.
 
-Nothing in here is specific to any third-party Glyphs package: the only
-inputs are the official SMuFL metadata JSON files under data/upstream/.
+Only the official SMuFL metadata files under data/upstream/ are used.
 """
 from __future__ import annotations
 

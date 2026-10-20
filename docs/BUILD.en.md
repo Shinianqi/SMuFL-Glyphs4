@@ -20,16 +20,16 @@ python3 tools/build_all.py
 Output is deterministic; the generated files are committed so users never need
 to run Python.
 
-## Update SMuFL
+## Update the SMuFL data
 
 ```bash
-python3 tools/fetch_upstream.py --ref v1.5
+python3 tools/fetch_upstream.py --ref <tag-or-commit>
 python3 tools/build_all.py
 git diff --stat data/
 ```
 
 `fetch_upstream.py` uses the GitHub contents API and updates `VERSION.json`
-and `SHA256SUMS`.
+and `SHA256SUMS`. The current data follows the 1.5 draft on `gh-pages`.
 
 ## Install and package
 
@@ -66,7 +66,3 @@ Edit `data/layout/legacy.json`:
   `all` / `category:<name>` / `basics:<name>` / `name:<leaf name>`.
 
 Leaves contain no glyph lists; glyphs come from the official data.
-
-> The name `Flags` has a zero-width space (U+200B) at the end. Glyphs'
-> `categories.strings` localizes `Flags`, and this character bypasses the
-> localization so the sidebar still shows `Flags`. Do not delete it when editing.

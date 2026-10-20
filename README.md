@@ -2,7 +2,7 @@
 
 > 文档以中文为准。[English](README.en.md) · [日本語](README.ja.md)
 
-Glyphs 4 是一款 macOS 应用。本仓库提供它的 SMuFL 分类表和字体元数据导出插件；数据来自 SMuFL 1.5 (draft) 官方元数据。安装器同时兼容 Glyphs 3 的目录结构。
+Glyphs 4 是一款 macOS 应用。本仓库为它提供 SMuFL 分类表和字体元数据导出插件；数据来自 SMuFL 1.5 (draft) 官方元数据。安装器同时兼容 Glyphs 3 的目录结构。
 
 ## 截图
 
@@ -44,7 +44,7 @@ SMuFL Common Glyphs
 └── Signs & Texts
 ```
 
-启动窗口：`SMuFL Common Glyphs`（969）、`SMuFL Glyphs`（2,940）、`Clefs`（61）、
+启动窗口提供 5 个预创建入口：`SMuFL Common Glyphs`（969）、`SMuFL Glyphs`（2,940）、`Clefs`（61）、
 `Time Signatures`（32）、`Notes & Rests`（212）。字形按 Unicode 码位排序。
 
 锚点：选中字形后执行 **Glyph > Set Anchors（⌘U）**，会写入
@@ -95,10 +95,12 @@ python3 tools/build_all.py
 ## 许可
 
 Apache-2.0，见 [`LICENSE`](LICENSE)。第三方署名在 [`NOTICE`](NOTICE)：
-SMuFL 规范（FSA）、GlyphsSDK（Apache-2.0）、Bravura（OFL-1.1，仅两个参考 JSON）。
+SMuFL 规范（FSA）、GlyphsSDK（Apache-2.0）、Bravura 参考数据（OFL-1.1）、
+Naruto 图标（© YH & Kiyoaki）。
 
 ## 致谢
 
 [SMuFL](https://www.w3.org/community/music-notation/)、
 [GlyphsSDK](https://github.com/schriftgestalt/GlyphsSDK)、
-[Bravura](https://github.com/steinbergmedia/bravura)。
+[Bravura](https://github.com/steinbergmedia/bravura)、
+Naruto 音乐字体（侧边栏图标）。

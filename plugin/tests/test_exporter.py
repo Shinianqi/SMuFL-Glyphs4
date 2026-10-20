@@ -9,7 +9,7 @@ upm, masters, glyphs, glyph.layerForId_(), layer.anchors, layer.width and
 layer.bounds.
 
 Run:
-    cd Glyphs4-SMuFL-Metadata
+    cd plugin
     SMUFL_EXPORTER_NO_MAIN=1 python3 -m unittest discover -s tests -v
 """
 import json

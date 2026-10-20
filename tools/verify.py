@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Consistency checks for the generated SMuFL for Glyphs 4 data.
+"""Consistency checks for the generated SMuFL data.
 
 Run after `python3 tools/build_all.py` (CI does the same):
 

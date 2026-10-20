@@ -37,6 +37,7 @@ cp "$ROOT/install/templates/manual-glyphs/"README*.md "$MAN/SMuFL Glyphs/"
 bash "$ROOT/plugin/build.sh" >/dev/null
 cp -R "$ROOT/build/SMuFL Metadata.glyphsPlugin" "$MAN/SMuFL Metadata/"
 cp "$ROOT/plugin/smufl-config.example.json" "$MAN/SMuFL Metadata/"
+cp "$ROOT/plugin/install_pyobjc.command" "$MAN/SMuFL Metadata/"
 cp "$ROOT/install/templates/manual-metadata/"README*.md "$MAN/SMuFL Metadata/"
 
 USER_HOME_SNIPPET='USER_NAME="$(stat -f%Su /dev/console)"

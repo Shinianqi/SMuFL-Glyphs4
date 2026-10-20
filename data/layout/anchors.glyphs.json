@@ -1,6 +1,8 @@
 {
  "_note": "每个字形的锚点，坐标按 Bravura 1.482 的 glyphsWithAnchors/glyphBBoxes 归一化为 GlyphData 表达式。",
  "_source": "Bravura 1.482 redist/Bravura.json, SIL OFL 1.1",
+ "_copyright": "Bravura, Copyright (c) Steinberg Media Technologies GmbH. SIL Open Font License 1.1.",
+ "_license": "SIL Open Font License 1.1 (see data/third-party/bravura/LICENSE-OFL-1.1.txt)",
  "glyphs": {
   "accidental1CommaFlat": "cutOutSE@centerX;minY",
   "accidental1CommaSharp": "cutOutNW@centerX;maxY, cutOutSE@centerX;centerY, cutOutSW@minX;minY",

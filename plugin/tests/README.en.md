@@ -51,5 +51,5 @@ PyObjC install; the Python bundled with Glyphs already provides AppKit.
 
 ## 3. Sample
 
-No sample font is included (`Naruto_SMuFL.glyphs` is not part of this
-repository). To verify, run the headless command above with your own project.
+No sample font is included. To verify, run the headless command above with
+your own project.
