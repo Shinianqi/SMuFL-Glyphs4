@@ -10,14 +10,15 @@
 python3 tools/build_all.py
 ```
 
-| 步骤 | 输出 |
+| 脚本 | 输出 |
 |---|---|
 | `build_glyphdata.py` | `data/generated/GlyphData-SMuFL.xml` |
 | `build_groups.py` | `data/generated/Groups-SMuFL.plist` |
 | `build_glyphnames_snapshot.py` | `data/generated/smufl_glyphnames.json` |
-| `verify.py` | 一致性检查 |
 
-输出是确定性的，生成结果已提交，用户不需要运行 Python。
+最后运行 `verify.py` 检查结果。
+
+生成结果是确定性的；结果已提交到仓库，安装和使用时不需要运行 Python。
 
 ## 更新 SMuFL 数据
 
@@ -39,7 +40,7 @@ git diff --stat data/
 生成 `release/pkg/` 里的 4 个 pkg（分类表、分类表卸载、插件、插件卸载）和
 `release/manual/` 里的手动安装文件。
 
-开发时可直接安装分类表：
+本地调试时可以直接安装分类表：
 
 ```bash
 ./install/install.sh

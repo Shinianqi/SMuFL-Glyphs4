@@ -1,5 +1,7 @@
 # SMuFL Glyphs — 手動インストール
 
+> 中国語版を優先します。[中文](README.md) · [English](README.en.md)
+
 分類表（GlyphData、Groups、アイコン、フィルタ）。プラグインは
 `release/manual/SMuFL Metadata/` にあります。
 

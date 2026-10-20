@@ -1,6 +1,6 @@
 # ビルド
 
-> 中国語版が正です。[中文](BUILD.md) · [English](BUILD.en.md)
+> 中国語版を優先します。[中文](BUILD.md) · [English](BUILD.en.md)
 
 Python 3.9+ が必要です（標準ライブラリのみ）。`.pkg` のビルドには macOS が必要です。
 
@@ -10,15 +10,15 @@ Python 3.9+ が必要です（標準ライブラリのみ）。`.pkg` のビル�
 python3 tools/build_all.py
 ```
 
-| 手順 | 出力 |
+| スクリプト | 出力 |
 |---|---|
 | `build_glyphdata.py` | `data/generated/GlyphData-SMuFL.xml` |
 | `build_groups.py` | `data/generated/Groups-SMuFL.plist` |
 | `build_glyphnames_snapshot.py` | `data/generated/smufl_glyphnames.json` |
-| `verify.py` | 整合性チェック |
 
-出力は決定的です。生成物はコミット済みなので、利用者が Python を実行する必要は
-ありません。
+最後に `verify.py` で結果を確認します。
+
+出力は決定的で、生成物はコミット済みです。インストールや利用に Python は不要です。
 
 ## SMuFL データの更新
 

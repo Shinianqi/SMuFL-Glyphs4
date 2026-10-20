@@ -1,5 +1,7 @@
 # Release packages
 
+> Chinese is the primary language. [中文](README.md) · [日本語](README.ja.md)
+
 Install/uninstall packages for the two components, plus manual install files.
 
 | File | Purpose |
@@ -27,7 +29,7 @@ The two components are independent; install either one.
 The packages are unsigned. If Gatekeeper blocks the first launch, right-click
 and choose Open.
 
-The packages write to the current user's:
+Install location:
 
 ```text
 ~/Library/Application Support/Glyphs 4/

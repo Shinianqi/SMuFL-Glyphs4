@@ -1,6 +1,6 @@
 # サイドバーのアイコン
 
-> 中国語版が正です。[中文](README.md) · [English](README.en.md)
+> 中国語版を優先します。[中文](README.md) · [English](README.en.md)
 
 ファイル名は `<名前>Template.<拡張子>`。plist では
 `icon = <名前>Template;` として参照します。ファイルが無い場合、生成スクリプトは

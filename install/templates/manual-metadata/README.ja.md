@@ -1,5 +1,7 @@
 # SMuFL Metadata — 手動インストール
 
+> 中国語版を優先します。[中文](README.md) · [English](README.en.md)
+
 フォントメタデータ書き出しプラグイン。分類表は
 `release/manual/SMuFL Glyphs/` にあります。
 

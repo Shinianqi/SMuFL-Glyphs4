@@ -30,7 +30,7 @@ if [ "$STATUS" -eq 0 ]; then
         echo "请完全退出 Glyphs 4（⌘Q），重新打开后再运行脚本。"
     else
         echo "PyObjC 已安装，但当前 Python 仍无法导入 objc/AppKit。"
-        echo "请把下面的输出发给开发者："
+        echo "请把下面的输出保存下来，反馈问题时一并提供："
         "$PY" -c "import sys; print(sys.executable); print(sys.path)" 2>&1
     fi
 else

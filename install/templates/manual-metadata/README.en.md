@@ -1,5 +1,7 @@
 # SMuFL Metadata — manual install
 
+> Chinese is the primary language. [中文](README.md) · [日本語](README.ja.md)
+
 Font metadata exporter plugin. The classification tables live in
 `release/manual/SMuFL Glyphs/`.
 

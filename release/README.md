@@ -28,7 +28,7 @@
 
 安装包未签名，首次打开如果被 Gatekeeper 拦截，右键 → 打开。
 
-pkg 会写入当前登录用户的：
+安装位置：
 
 ```text
 ~/Library/Application Support/Glyphs 4/

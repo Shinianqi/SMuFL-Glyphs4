@@ -1,6 +1,6 @@
 # メタデータ書き出し
 
-> 中国語版が正です。[中文](README.md) · [English](README.en.md)
+> 中国語版を優先します。[中文](README.md) · [English](README.en.md)
 
 Glyphs 4 の現在のプロジェクトから SMuFL のフォントメタデータ JSON を生成します。
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Consistency checks for the generated SMuFL data.
 
-Run after `python3 tools/build_all.py` (CI does the same):
+Run after `python3 tools/build_all.py`:
 
     python3 tools/verify.py
 

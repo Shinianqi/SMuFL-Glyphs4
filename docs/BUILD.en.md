@@ -10,15 +10,16 @@ Requires Python 3.9+ (standard library only); building `.pkg` requires macOS.
 python3 tools/build_all.py
 ```
 
-| Step | Output |
+| Script | Output |
 |---|---|
 | `build_glyphdata.py` | `data/generated/GlyphData-SMuFL.xml` |
 | `build_groups.py` | `data/generated/Groups-SMuFL.plist` |
 | `build_glyphnames_snapshot.py` | `data/generated/smufl_glyphnames.json` |
-| `verify.py` | consistency checks |
 
-Output is deterministic; the generated files are committed so users never need
-to run Python.
+`verify.py` checks the result afterwards.
+
+The output is deterministic and committed, so installing and using the data
+does not require Python.
 
 ## Update the SMuFL data
 

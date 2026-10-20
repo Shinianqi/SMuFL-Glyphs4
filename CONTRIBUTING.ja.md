@@ -1,6 +1,6 @@
 # コントリビュート
 
-> 中国語版が正です。[中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md)
+> 中国語版を優先します。[中文](CONTRIBUTING.md) · [English](CONTRIBUTING.en.md)
 
 ## データ
 

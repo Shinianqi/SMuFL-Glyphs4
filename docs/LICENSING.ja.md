@@ -1,6 +1,6 @@
 # ライセンス
 
-> 中国語版が正です。[中文](LICENSING.md) · [English](LICENSING.en.md)
+> 中国語版を優先します。[中文](LICENSING.md) · [English](LICENSING.en.md)
 
 本プロジェクトは **Apache-2.0** です。全文は [`LICENSE`](../LICENSE) を参照。
 

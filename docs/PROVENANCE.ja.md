@@ -1,6 +1,6 @@
 # ファイルの出所
 
-> 中国語版が正です。[中文](PROVENANCE.md) · [English](PROVENANCE.en.md)
+> 中国語版を優先します。[中文](PROVENANCE.md) · [English](PROVENANCE.en.md)
 
 | パス | 出所 |
 |---|---|

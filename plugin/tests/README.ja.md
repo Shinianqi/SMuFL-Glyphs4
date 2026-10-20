@@ -1,6 +1,6 @@
 # テスト
 
-> 中国語版が正です。[中文](README.md) · [English](README.en.md)
+> 中国語版を優先します。[中文](README.md) · [English](README.en.md)
 
 ## 1. 単体テスト（Glyphs のインストール不要）
 

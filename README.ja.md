@@ -1,6 +1,6 @@
 # SMuFL for Glyphs 4
 
-> 中国語版が正です。本日本語版は中国語版からの翻訳です。[中文](README.md) · [English](README.en.md)
+> 中国語版を優先します。本日本語版は中国語版からの翻訳です。[中文](README.md) · [English](README.en.md)
 
 Glyphs 4 は macOS アプリです。本リポジトリはその SMuFL 分類表とフォントメタデータ書き出しプラグインを提供します。データは SMuFL 1.5（draft）の公式メタデータに基づいています。インストーラは Glyphs 3 のフォルダ構成にも対応します。
 

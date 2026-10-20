@@ -1,5 +1,7 @@
 # SMuFL Glyphs — manual install
 
+> Chinese is the primary language. [中文](README.md) · [日本語](README.ja.md)
+
 Classification tables (GlyphData, Groups, icons, filters). The plugin lives in
 `release/manual/SMuFL Metadata/`.
 

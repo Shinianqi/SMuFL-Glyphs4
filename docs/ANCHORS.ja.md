@@ -1,6 +1,6 @@
 # アンカー
 
-> 中国語版が正です。[中文](ANCHORS.md) · [English](ANCHORS.en.md)
+> 中国語版を優先します。[中文](ANCHORS.md) · [English](ANCHORS.en.md)
 
 `GlyphData` の `anchors` 属性は位置付きのアンカーをサポートします。
 
