@@ -1,0 +1,88 @@
+SMuFL for Glyphs 4
+Copyright 2026 Shinianqi (拾廿七)
+
+This product includes material derived from the SMuFL Specification and from
+two other third-party projects. The notices below are required by their
+licenses and must be kept in redistributions.
+
+--------------------------------------------------------------------------------
+1. SMuFL Specification (data/)
+--------------------------------------------------------------------------------
+
+The files in data/upstream/ and everything generated from them
+(data/generated/GlyphData-SMuFL.xml, data/generated/Groups-SMuFL.plist,
+data/generated/smufl_glyphnames.json) are derived from the SMuFL
+Specification:
+
+    SMuFL Specification, version 1.5 (draft)
+    Latest editor's draft: https://smufl.formats.music/latest/
+    Metadata from https://github.com/w3c-cg/smufl
+    (gh-pages, commit f9d12b2, 2026-09-05)
+
+    The most recent published Final Community Group Report is version 1.4
+    (16 March 2021); the 1.5 draft is the same specification with newer
+    (unreleased) revisions.
+
+    Copyright (c) 2021 the Contributors to the SMuFL Specification,
+    published by the W3C Music Notation Community Group under the
+    W3C Community Final Specification Agreement (FSA).
+    https://www.w3.org/community/about/agreements/final/
+
+The FSA grants a perpetual, worldwide, non-exclusive, royalty-free copyright
+license to reproduce, prepare derivative works of, sublicense, distribute and
+implement the Specification, on condition that derivative works carry an
+attribution to the Specification (FSA section 2.2). That attribution is the
+paragraph above. No other obligation, and in particular no copyleft
+obligation, applies to the derived tables; they are distributed here under the
+Apache License 2.0.
+
+SMuFL is a specification, not a font. No SMuFL font (Bravura or otherwise) is
+included in this repository.
+
+--------------------------------------------------------------------------------
+2. GlyphsSDK (plugin/bundle/Contents/MacOS/)
+--------------------------------------------------------------------------------
+
+plugin/bundle/Contents/MacOS/main.py and plugin/bundle/Contents/MacOS/plugin
+come from the GlyphsSDK "General Plugin" Python template:
+
+    https://github.com/schriftgestalt/GlyphsSDK
+    Copyright the GlyphsSDK contributors
+    Apache License 2.0
+
+The `plugin` executable is the unmodified launcher binary from that template.
+
+--------------------------------------------------------------------------------
+3. Bravura metadata (plugin/smufl_optional_reference.json,
+                     plugin/smufl_sets_template.json,
+                     data/layout/anchors.glyphs.json)
+--------------------------------------------------------------------------------
+
+These files are derived from Bravura's redist/Bravura.json:
+
+    Bravura, Copyright (c) Steinberg Media Technologies GmbH
+    SIL Open Font License 1.1
+
+They are distributed under the SIL Open Font License 1.1, not under the
+Apache License 2.0. The license text is in
+data/third-party/bravura/LICENSE-OFL-1.1.txt. They are reference data only;
+no Bravura font software is included.
+
+--------------------------------------------------------------------------------
+4. Sidebar icons (icons/)
+--------------------------------------------------------------------------------
+
+The sidebar icons are taken from the Naruto music font:
+
+    Copyright (C) YH & Kiyoaki, 2024-2026
+
+They are redistributed under the Apache License 2.0 with the permission of the
+copyright holders.
+
+--------------------------------------------------------------------------------
+5. Glyphs
+--------------------------------------------------------------------------------
+
+Glyphs and the Glyphs Python API are products of Georg Seifert /
+schriftgestaltung.de. This project is an independent, unofficial add-on and is
+not affiliated with or endorsed by Glyphs.

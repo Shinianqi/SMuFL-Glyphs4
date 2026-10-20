@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>SMuFL: Core (U+E000–EFFF)</string>
+		<key>predicate</key>
+		<string>unicodeChar &gt;= 57344 AND unicodeChar &lt;= 61439</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>SMuFL: Optional (U+F400–F8FF)</string>
+		<key>predicate</key>
+		<string>unicodeChar &gt;= 62464 AND unicodeChar &lt;= 63743</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Unicode Music Symbols (U+1D100–U+1D1FF)</string>
+		<key>predicate</key>
+		<string>unicodeChar &gt;= 119040 AND unicodeChar &lt;= 119295</string>
+	</dict>
+</array>
+</plist>

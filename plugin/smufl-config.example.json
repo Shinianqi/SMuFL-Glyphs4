@@ -1,0 +1,20 @@
+{
+  "_comment": "可选覆盖配置，不是导出前置条件。正常导出会从 Glyphs 自动测量 engravingDefaults、宽度、BBox、锚点、替代字形、连字、样式集和可选字形。只有想覆盖自动值、指定母版、补充 textFontFamily 或手动锚点时，才复制为 <字体文件名>.smufl-config.json。数值单位：engravingDefaults/手动锚点为 staff space，designSize/sizeRange 为整数 decipoint（1/720 英寸）。",
+  "fontName": null,
+  "fontVersion": null,
+  "designSize": null,
+  "sizeRange": null,
+  "master": null,
+  "metadataSource": null,
+  "engravingDefaults": {},
+  "setsTemplate": {},
+  "glyphNameAliases": {},
+  "glyphsWithAnchors": {},
+  "includeOptionalGlyphs": true,
+  "includeGlyphBBoxes": true,
+  "includeGlyphAdvanceWidths": true,
+  "includeGlyphsWithAlternates": true,
+  "includeLigatures": true,
+  "includeSets": true,
+  "includeEngravingDefaults": true
+}

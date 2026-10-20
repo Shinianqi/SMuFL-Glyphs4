@@ -1,0 +1,1787 @@
+{
+ "version": 1,
+ "categories": [
+  {
+   "name": "SMuFL Glyphs",
+   "icon": "smuflTemplate",
+   "children": [
+    {
+     "name": "Classes A-Z",
+     "children": [
+      {
+       "name": "Accidentals",
+       "class": "accidentals"
+      },
+      {
+       "name": "Accidentals 24-EDO Arrows",
+       "range": "gouldArrowQuartertoneAccidentals24Edo"
+      },
+      {
+       "name": "Accidentals 24-EDO Turkish",
+       "range": "turkishFolkMusicAccidentals"
+      },
+      {
+       "name": "Accidentals 24-EDO Wyschnegradsky",
+       "range": "wyschnegradskyAccidentals72Edo"
+      },
+      {
+       "name": "Accidentals AEU",
+       "range": "arelEzgiUzdilekAeuAccidentals"
+      },
+      {
+       "name": "Accidentals Arabic",
+       "range": "arabicAccidentals"
+      },
+      {
+       "name": "Accidentals Helmholtz Ellis",
+       "class": "accidentalsHelmholtzEllis"
+      },
+      {
+       "name": "Accidentals Johnston",
+       "range": "johnstonAccidentalsJustIntonation"
+      },
+      {
+       "name": "Accidentals Persian",
+       "range": "persianAccidentals"
+      },
+      {
+       "name": "Accidentals Sagittal Athenian",
+       "range": "athenianSagittalExtensionMediumPrecisionAccidentals"
+      },
+      {
+       "name": "Accidentals Sagittal Diacritics",
+       "range": "herculeanSagittalExtensionVeryHighPrecisionAccidentalDiacritics"
+      },
+      {
+       "name": "Accidentals Sagittal Mixed",
+       "class": "accidentalsSagittalMixed"
+      },
+      {
+       "name": "Accidentals Sagittal Promethean",
+       "class": "accidentalsSagittalPromethean"
+      },
+      {
+       "name": "Accidentals Sagittal Pure",
+       "class": "accidentalsSagittalPure"
+      },
+      {
+       "name": "Accidentals Sagittal Trojan",
+       "range": "trojanSagittalExtension12EdoRelativeAccidentals"
+      },
+      {
+       "name": "Accidentals Sims",
+       "range": "simsAccidentals72Edo"
+      },
+      {
+       "name": "Accidentals Standard",
+       "class": "accidentalsStandard"
+      },
+      {
+       "name": "Accidentals Stein Zimmermann",
+       "class": "accidentalsSteinZimmermann"
+      },
+      {
+       "name": "Accidentals Stockhausen",
+       "range": "stockhausenAccidentals"
+      },
+      {
+       "name": "Articulations",
+       "class": "articulations"
+      },
+      {
+       "name": "Articulations Above",
+       "class": "articulationsAbove"
+      },
+      {
+       "name": "Articulations Below",
+       "class": "articulationsBelow"
+      },
+      {
+       "name": "Clefs",
+       "class": "clefs"
+      },
+      {
+       "name": "Clefs C",
+       "class": "clefsC"
+      },
+      {
+       "name": "Clefs F",
+       "class": "clefsF"
+      },
+      {
+       "name": "Clefs G",
+       "class": "clefsG"
+      },
+      {
+       "name": "Combining Staff Positions",
+       "class": "combiningStaffPositions"
+      },
+      {
+       "name": "Dynamics",
+       "range": "dynamics"
+      },
+      {
+       "name": "Figured Bass",
+       "class": "figuredBass"
+      },
+      {
+       "name": "For Text Based Applications",
+       "class": "forTextBasedApplications"
+      },
+      {
+       "name": "Multi Glyph Forms",
+       "class": "multiGlyphForms"
+      },
+      {
+       "name": "Notehead Set Circle X",
+       "class": "noteheadSetCircleX"
+      },
+      {
+       "name": "Notehead Set Circled",
+       "class": "noteheadSetCircled"
+      },
+      {
+       "name": "Notehead Set Default",
+       "class": "noteheadSetDefault"
+      },
+      {
+       "name": "Notehead Set Diamond",
+       "class": "noteheadSetDiamond"
+      },
+      {
+       "name": "Notehead Set Diamond Old",
+       "class": "noteheadSetDiamondOld"
+      },
+      {
+       "name": "Notehead Set Heavy X",
+       "class": "noteheadSetHeavyX"
+      },
+      {
+       "name": "Notehead Set Large Arrow Down",
+       "class": "noteheadSetLargeArrowDown"
+      },
+      {
+       "name": "Notehead Set Large Arrow Up",
+       "class": "noteheadSetLargeArrowUp"
+      },
+      {
+       "name": "Notehead Set Names Pitch",
+       "class": "noteheadSetNamesPitch"
+      },
+      {
+       "name": "Notehead Set Names Solfege",
+       "class": "noteheadSetNamesSolfege"
+      },
+      {
+       "name": "Notehead Set Plus",
+       "class": "noteheadSetPlus"
+      },
+      {
+       "name": "Notehead Set Round Large",
+       "class": "noteheadSetRoundLarge"
+      },
+      {
+       "name": "Notehead Set Round Small",
+       "class": "noteheadSetRoundSmall"
+      },
+      {
+       "name": "Notehead Set Sacred Harp",
+       "class": "noteheadSetSacredHarp"
+      },
+      {
+       "name": "Notehead Set Slash Horizontal Ends",
+       "class": "noteheadSetSlashHorizontalEnds"
+      },
+      {
+       "name": "Notehead Set Slash Vertical Ends",
+       "class": "noteheadSetSlashVerticalEnds"
+      },
+      {
+       "name": "Notehead Set Slashed1",
+       "class": "noteheadSetSlashed1"
+      },
+      {
+       "name": "Notehead Set Slashed2",
+       "class": "noteheadSetSlashed2"
+      },
+      {
+       "name": "Notehead Set Square",
+       "class": "noteheadSetSquare"
+      },
+      {
+       "name": "Notehead Set Triangle Down",
+       "class": "noteheadSetTriangleDown"
+      },
+      {
+       "name": "Notehead Set Triangle Left",
+       "class": "noteheadSetTriangleLeft"
+      },
+      {
+       "name": "Notehead Set Triangle Right",
+       "class": "noteheadSetTriangleRight"
+      },
+      {
+       "name": "Notehead Set Triangle Up",
+       "class": "noteheadSetTriangleUp"
+      },
+      {
+       "name": "Notehead Set With X",
+       "class": "noteheadSetWithX"
+      },
+      {
+       "name": "Notehead Set X",
+       "class": "noteheadSetX"
+      },
+      {
+       "name": "Noteheads",
+       "class": "noteheads"
+      },
+      {
+       "name": "Octaves",
+       "class": "octaves"
+      },
+      {
+       "name": "Ornaments",
+       "class": "ornaments"
+      },
+      {
+       "name": "Parentheses Notehead",
+       "class": "parenthesesNotehead"
+      },
+      {
+       "name": "Pauses",
+       "class": "pauses"
+      },
+      {
+       "name": "Pauses Above",
+       "class": "pausesAbove"
+      },
+      {
+       "name": "Pauses Below",
+       "class": "pausesBelow"
+      },
+      {
+       "name": "Rests",
+       "class": "rests"
+      },
+      {
+       "name": "Stem Decorations",
+       "class": "stemDecorations"
+      },
+      {
+       "name": "Text · Chord Symbol Accidentals",
+       "class": "tf_chordSymbolAccidentals"
+      },
+      {
+       "name": "Text · Chord Symbols",
+       "class": "tf_chordSymbols"
+      },
+      {
+       "name": "Text · Daseian Notation",
+       "class": "tf_daseianNotation"
+      },
+      {
+       "name": "Text · Figured Bass",
+       "class": "tf_figuredBass"
+      },
+      {
+       "name": "Text · Hairpins",
+       "class": "tf_hairpins"
+      },
+      {
+       "name": "Text · Harp Pedals",
+       "class": "tf_harpPedals"
+      },
+      {
+       "name": "Text · Metronome Marks",
+       "class": "tf_metronomeMarks"
+      },
+      {
+       "name": "Text · Ornaments",
+       "class": "tf_ornaments"
+      },
+      {
+       "name": "Text · Pedals",
+       "class": "tf_pedals"
+      },
+      {
+       "name": "Text · Pictograms",
+       "class": "tf_pictograms"
+      },
+      {
+       "name": "Text · Prolations",
+       "class": "tf_prolations"
+      },
+      {
+       "name": "Text · Zero Width",
+       "class": "tf_zeroWidth"
+      },
+      {
+       "name": "Wiggles Arpeggiato",
+       "class": "wigglesArpeggiato"
+      },
+      {
+       "name": "Wiggles Arpeggiato Down",
+       "class": "wigglesArpeggiatoDown"
+      },
+      {
+       "name": "Wiggles Arpeggiato Up",
+       "class": "wigglesArpeggiatoUp"
+      },
+      {
+       "name": "Wiggles Circular Motion",
+       "class": "wigglesCircularMotion"
+      },
+      {
+       "name": "Wiggles Quasi Random",
+       "class": "wigglesQuasiRandom"
+      },
+      {
+       "name": "Wiggles Trill",
+       "class": "wigglesTrill"
+      },
+      {
+       "name": "Wiggles Vibrato",
+       "class": "wigglesVibrato"
+      },
+      {
+       "name": "Wiggles Vibrato Variable",
+       "class": "wigglesVibratoVariable"
+      }
+     ]
+    },
+    {
+     "name": "Ranges A-Z",
+     "children": [
+      {
+       "name": "Accordion",
+       "range": "accordion"
+      },
+      {
+       "name": "Analytics",
+       "range": "analytics"
+      },
+      {
+       "name": "Arabic Accidentals",
+       "range": "arabicAccidentals"
+      },
+      {
+       "name": "Arel-Ezgi-Uzdilek (AEU) Accidentals",
+       "range": "arelEzgiUzdilekAeuAccidentals"
+      },
+      {
+       "name": "Arrows & Arrowheads",
+       "range": "arrowsAndArrowheads"
+      },
+      {
+       "name": "Articulation",
+       "range": "articulation"
+      },
+      {
+       "name": "Articulation Supplement",
+       "range": "articulationSupplement"
+      },
+      {
+       "name": "Athenian Sagittal Extension (Medium Precision) Accidentals",
+       "range": "athenianSagittalExtensionMediumPrecisionAccidentals"
+      },
+      {
+       "name": "Bar Repeats",
+       "range": "barRepeats"
+      },
+      {
+       "name": "Barlines",
+       "range": "barlines"
+      },
+      {
+       "name": "Beamed Groups of Notes",
+       "range": "beamedGroupsOfNotes"
+      },
+      {
+       "name": "Beams & Slurs",
+       "range": "beamsAndSlurs"
+      },
+      {
+       "name": "Beaters Pictograms",
+       "range": "beatersPictograms"
+      },
+      {
+       "name": "Bells Pictograms",
+       "range": "bellsPictograms"
+      },
+      {
+       "name": "Brass Techniques",
+       "range": "brassTechniques"
+      },
+      {
+       "name": "Chimes Pictograms",
+       "range": "chimesPictograms"
+      },
+      {
+       "name": "Chop (Percussive Bowing) Notation",
+       "range": "chopNotation"
+      },
+      {
+       "name": "Chord Diagrams",
+       "range": "chordDiagrams"
+      },
+      {
+       "name": "Chord Symbols",
+       "range": "chordSymbols"
+      },
+      {
+       "name": "Clefs",
+       "range": "clefs"
+      },
+      {
+       "name": "Clefs Supplement",
+       "range": "clefsSupplement"
+      },
+      {
+       "name": "Combining Staff Positions",
+       "range": "combiningStaffPositions"
+      },
+      {
+       "name": "Combining Strokes for Trills & Mordents",
+       "range": "combiningStrokesForTrillsAndMordents"
+      },
+      {
+       "name": "Common Ornaments",
+       "range": "commonOrnaments"
+      },
+      {
+       "name": "Conductor Symbols",
+       "range": "conductorSymbols"
+      },
+      {
+       "name": "Cymbals Pictograms",
+       "range": "cymbalsPictograms"
+      },
+      {
+       "name": "Daseian Notation",
+       "range": "daseianNotation"
+      },
+      {
+       "name": "Drums Pictograms",
+       "range": "drumsPictograms"
+      },
+      {
+       "name": "Dynamics",
+       "range": "dynamics"
+      },
+      {
+       "name": "Electronic Music Pictograms",
+       "range": "electronicMusicPictograms"
+      },
+      {
+       "name": "Extended Helmholtz-Ellis Accidentals (Just Intonation)",
+       "range": "extendedHelmholtzEllisAccidentalsJustIntonation"
+      },
+      {
+       "name": "Extended Helmholtz-Ellis Accidentals (Just Intonation) Supplement",
+       "range": "extendedHelmholtzEllisAccidentalsJustIntonationSupplement"
+      },
+      {
+       "name": "Extended Stein-Zimmermann Accidentals",
+       "range": "extendedSteinZimmermannAccidentals"
+      },
+      {
+       "name": "Figured Bass",
+       "range": "figuredBass"
+      },
+      {
+       "name": "Figured Bass Supplement",
+       "range": "figuredBassSupplement"
+      },
+      {
+       "name": "Fingering",
+       "range": "fingering"
+      },
+      {
+       "name": "Fingering Supplement",
+       "range": "fingeringSupplement"
+      },
+      {
+       "name": "Flags​",
+       "range": "flags",
+       "note": "U+200B 在末尾：Glyphs 内置 categories.strings 会把 \"Flags\" 翻译成中文，加零宽空格绕开"
+      },
+      {
+       "name": "French & English Renaissance Lute Tablature",
+       "range": "frenchAndEnglishRenaissanceLuteTablature"
+      },
+      {
+       "name": "Function Theory Symbols",
+       "range": "functionTheorySymbols"
+      },
+      {
+       "name": "Function Theory Symbols Supplement",
+       "range": "functionTheorySymbolsSupplement"
+      },
+      {
+       "name": "German Renaissance Lute Tablature",
+       "range": "germanRenaissanceLuteTablature"
+      },
+      {
+       "name": "Gongs Pictograms",
+       "range": "gongsPictograms"
+      },
+      {
+       "name": "Gould Arrow Quartertone Accidentals (24-EDO)",
+       "range": "gouldArrowQuartertoneAccidentals24Edo"
+      },
+      {
+       "name": "Guitar",
+       "range": "guitar"
+      },
+      {
+       "name": "Handbells",
+       "range": "handbells"
+      },
+      {
+       "name": "Harp Techniques",
+       "range": "harpTechniques"
+      },
+      {
+       "name": "Herculean Sagittal Extension (Very High Precision) Accidental Diacritics",
+       "range": "herculeanSagittalExtensionVeryHighPrecisionAccidentalDiacritics"
+      },
+      {
+       "name": "Holds & Pauses",
+       "range": "holdsAndPauses"
+      },
+      {
+       "name": "Individual Notes",
+       "range": "individualNotes"
+      },
+      {
+       "name": "Italian & Spanish Renaissance Lute Tablature",
+       "range": "italianAndSpanishRenaissanceLuteTablature"
+      },
+      {
+       "name": "Johnston Accidentals (Just Intonation)",
+       "range": "johnstonAccidentalsJustIntonation"
+      },
+      {
+       "name": "Kahnotation",
+       "range": "kahnotation"
+      },
+      {
+       "name": "Keyboard Techniques",
+       "range": "keyboardTechniques"
+      },
+      {
+       "name": "Kievan Square Notation",
+       "range": "kievanSquareNotation"
+      },
+      {
+       "name": "Kodály Hand Signs",
+       "range": "kodályHandSigns"
+      },
+      {
+       "name": "Lyrics",
+       "range": "lyrics"
+      },
+      {
+       "name": "Magrathean Sagittal Extension (Insane Precision) Accidental Diacritics",
+       "range": "magratheanSagittalExtensionInsanePrecisionAccidentalDiacritics"
+      },
+      {
+       "name": "Medieval & Renaissance Accidentals",
+       "range": "medievalAndRenaissanceAccidentals"
+      },
+      {
+       "name": "Medieval & Renaissance Clefs",
+       "range": "medievalAndRenaissanceClefs"
+      },
+      {
+       "name": "Medieval & Renaissance Individual Notes",
+       "range": "medievalAndRenaissanceIndividualNotes"
+      },
+      {
+       "name": "Medieval & Renaissance Miscellany",
+       "range": "medievalAndRenaissanceMiscellany"
+      },
+      {
+       "name": "Medieval & Renaissance Noteheads & Stems",
+       "range": "medievalAndRenaissanceNoteheadsAndStems"
+      },
+      {
+       "name": "Medieval & Renaissance Oblique Forms",
+       "range": "medievalAndRenaissanceObliqueForms"
+      },
+      {
+       "name": "Medieval & Renaissance Plainchant Articulations",
+       "range": "medievalAndRenaissancePlainchantArticulations"
+      },
+      {
+       "name": "Medieval & Renaissance Plainchant Multiple-Note Forms",
+       "range": "medievalAndRenaissancePlainchantMultipleNoteForms"
+      },
+      {
+       "name": "Medieval & Renaissance Plainchant Single-Note Forms",
+       "range": "medievalAndRenaissancePlainchantSingleNoteForms"
+      },
+      {
+       "name": "Medieval & Renaissance Prolations",
+       "range": "medievalAndRenaissanceProlations"
+      },
+      {
+       "name": "Medieval & Renaissance Prolations Supplement",
+       "range": "medievalAndRenaissanceProlationsSupplement"
+      },
+      {
+       "name": "Medieval & Renaissance Rests",
+       "range": "medievalAndRenaissanceRests"
+      },
+      {
+       "name": "Medieval & Renaissance Staves",
+       "range": "medievalAndRenaissanceStaves"
+      },
+      {
+       "name": "Medieval & Renaissance Symbols In CMN",
+       "range": "medievalAndRenaissanceSymbolsInCmn"
+      },
+      {
+       "name": "Metallic Struck Percussion Pictograms",
+       "range": "metallicStruckPercussionPictograms"
+      },
+      {
+       "name": "Metronome Marks",
+       "range": "metronomeMarks"
+      },
+      {
+       "name": "Miscellaneous Percussion Instrument Pictograms",
+       "range": "miscellaneousPercussionInstrumentPictograms"
+      },
+      {
+       "name": "Miscellaneous Symbols",
+       "range": "miscellaneousSymbols"
+      },
+      {
+       "name": "Multi-segment Lines",
+       "range": "multiSegmentLines"
+      },
+      {
+       "name": "Note Clusters",
+       "range": "noteClusters"
+      },
+      {
+       "name": "Note Name Noteheads",
+       "range": "noteNameNoteheads"
+      },
+      {
+       "name": "Note Name Noteheads Supplement",
+       "range": "noteNameNoteheadsSupplement"
+      },
+      {
+       "name": "Noteheads",
+       "range": "noteheads"
+      },
+      {
+       "name": "Noteheads Supplement",
+       "range": "noteheadsSupplement"
+      },
+      {
+       "name": "Octaves",
+       "range": "octaves"
+      },
+      {
+       "name": "Octaves Supplement",
+       "range": "octavesSupplement"
+      },
+      {
+       "name": "Olympian Sagittal Extension (Extreme Precision) Accidental Diacritics",
+       "range": "olympianSagittalExtensionExtremePrecisionAccidentalDiacritics"
+      },
+      {
+       "name": "German Organ Tablature",
+       "range": "organGerman"
+      },
+      {
+       "name": "Other Accidentals",
+       "range": "otherAccidentals"
+      },
+      {
+       "name": "Other Accidentals Supplement",
+       "range": "otherAccidentalsSupplement"
+      },
+      {
+       "name": "Other Baroque Ornaments",
+       "range": "otherBaroqueOrnaments"
+      },
+      {
+       "name": "Percussion Playing Technique Pictograms",
+       "range": "percussionPlayingTechniquePictograms"
+      },
+      {
+       "name": "Persian Accidentals",
+       "range": "persianAccidentals"
+      },
+      {
+       "name": "Plucked Techniques",
+       "range": "pluckedTechniques"
+      },
+      {
+       "name": "Precomposed Trills & Mordents",
+       "range": "precomposedTrillsAndMordents"
+      },
+      {
+       "name": "Promethean Sagittal Extension (High Precision) multi-shaft Accidentals",
+       "range": "prometheanSagittalExtensionHighPrecisionMultiShaftAccidentals"
+      },
+      {
+       "name": "Promethean Sagittal Extension (High Precision) single-shaft Accidentals",
+       "range": "prometheanSagittalExtensionHighPrecisionSingleShaftAccidentals"
+      },
+      {
+       "name": "Renaissance Lute Tablature",
+       "range": "renaissanceLuteTablature"
+      },
+      {
+       "name": "Repeats",
+       "range": "repeats"
+      },
+      {
+       "name": "Rests",
+       "range": "rests"
+      },
+      {
+       "name": "Reversed Time Signatures",
+       "range": "timeSignaturesReversed"
+      },
+      {
+       "name": "Round & Square Noteheads",
+       "range": "roundAndSquareNoteheads"
+      },
+      {
+       "name": "Scale Degrees",
+       "range": "scaleDegrees"
+      },
+      {
+       "name": "Shakers Or Rattles Pictograms",
+       "range": "shakersOrRattlesPictograms"
+      },
+      {
+       "name": "Shape Note Noteheads",
+       "range": "shapeNoteNoteheads"
+      },
+      {
+       "name": "Shape Note Noteheads Supplement",
+       "range": "shapeNoteNoteheadsSupplement"
+      },
+      {
+       "name": "Simplified Music Notation",
+       "range": "simplifiedMusicNotation"
+      },
+      {
+       "name": "Sims Accidentals (72-EDO)",
+       "range": "simsAccidentals72Edo"
+      },
+      {
+       "name": "Slash Noteheads",
+       "range": "slashNoteheads"
+      },
+      {
+       "name": "Spartan Sagittal multi-shaft Accidentals",
+       "range": "spartanSagittalMultiShaftAccidentals"
+      },
+      {
+       "name": "Spartan Sagittal single-shaft Accidentals",
+       "range": "spartanSagittalSingleShaftAccidentals"
+      },
+      {
+       "name": "Staff Brackets & Dividers",
+       "range": "staffBracketsAndDividers"
+      },
+      {
+       "name": "Standard Accidentals (12-EDO)",
+       "range": "standardAccidentals12Edo"
+      },
+      {
+       "name": "Standard Accidentals for Chord Symbols",
+       "range": "standardAccidentalsChordSymbols"
+      },
+      {
+       "name": "Staves",
+       "range": "staves"
+      },
+      {
+       "name": "Stein-Zimmermann Accidentals (24-EDO)",
+       "range": "steinZimmermannAccidentals24Edo"
+      },
+      {
+       "name": "Stems",
+       "range": "stems"
+      },
+      {
+       "name": "Stockhausen Accidentals (24-EDO)",
+       "range": "stockhausenAccidentals"
+      },
+      {
+       "name": "String Techniques",
+       "range": "stringTechniques"
+      },
+      {
+       "name": "Techniques Noteheads",
+       "range": "techniquesNoteheads"
+      },
+      {
+       "name": "Time Signatures",
+       "range": "timeSignatures"
+      },
+      {
+       "name": "Time Signatures Supplement",
+       "range": "timeSignaturesSupplement"
+      },
+      {
+       "name": "Turned Time Signatures",
+       "range": "timeSignaturesTurned"
+      },
+      {
+       "name": "Tremolos",
+       "range": "tremolos"
+      },
+      {
+       "name": "Trojan Sagittal Extension (12-EDO Relative) Accidentals",
+       "range": "trojanSagittalExtension12EdoRelativeAccidentals"
+      },
+      {
+       "name": "Tuned Mallet Percussion Pictograms",
+       "range": "tunedMalletPercussionPictograms"
+      },
+      {
+       "name": "Tuplets",
+       "range": "tuplets"
+      },
+      {
+       "name": "Turkish Folk Music Accidentals",
+       "range": "turkishFolkMusicAccidentals"
+      },
+      {
+       "name": "Vocal Techniques",
+       "range": "vocalTechniques"
+      },
+      {
+       "name": "Whistles & Aerophones Pictograms",
+       "range": "whistlesAndAerophonesPictograms"
+      },
+      {
+       "name": "Wind Techniques",
+       "range": "windTechniques"
+      },
+      {
+       "name": "Wooden Struck Or Scraped Percussion Pictograms",
+       "range": "woodenStruckOrScrapedPercussionPictograms"
+      },
+      {
+       "name": "Wyschnegradsky Accidentals (72-EDO)",
+       "range": "wyschnegradskyAccidentals72Edo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SMuFL Common Glyphs",
+   "icon": "smuflTemplate",
+   "predicate": "script == \"musical\"",
+   "children": [
+    {
+     "name": "Staff Structure",
+     "icon": "staffTemplate",
+     "children": [
+      {
+       "name": "Staff Brackets & Dividers",
+       "range": "staffBracketsAndDividers"
+      },
+      {
+       "name": "Staves",
+       "range": "staves"
+      },
+      {
+       "name": "Barlines",
+       "range": "barlines"
+      }
+     ]
+    },
+    {
+     "name": "Clefs & Octaves",
+     "icon": "clefsTemplate",
+     "children": [
+      {
+       "name": "Clefs",
+       "class": "clefs"
+      },
+      {
+       "name": "Octaves",
+       "range": "octaves"
+      }
+     ]
+    },
+    {
+     "name": "Notes & Rests",
+     "icon": "notesRestsTemplate",
+     "children": [
+      {
+       "name": "Noteheads",
+       "children": [
+        {
+         "name": "Common Noteheads",
+         "range": "noteheads"
+        },
+        {
+         "name": "Slash Noteheads",
+         "range": "slashNoteheads"
+        },
+        {
+         "name": "Note Clusters",
+         "range": "noteClusters"
+        }
+       ]
+      },
+      {
+       "name": "Stems",
+       "range": "stems"
+      },
+      {
+       "name": "Flags​",
+       "range": "flags",
+       "note": "U+200B 在末尾：Glyphs 内置 categories.strings 会把 \"Flags\" 翻译成中文，加零宽空格绕开"
+      },
+      {
+       "name": "Rests",
+       "range": "rests"
+      },
+      {
+       "name": "Tuplets",
+       "range": "tuplets"
+      }
+     ]
+    },
+    {
+     "name": "Accidentals",
+     "icon": "accidentalsTemplate",
+     "children": [
+      {
+       "name": "Standard Accidentals (12-EDO)",
+       "range": "standardAccidentals12Edo"
+      },
+      {
+       "name": "Gould Arrow Quartertone Accidentals (24-EDO)",
+       "range": "gouldArrowQuartertoneAccidentals24Edo"
+      },
+      {
+       "name": "Stein-Zimmermann Accidentals (24-EDO)",
+       "range": "steinZimmermannAccidentals24Edo"
+      },
+      {
+       "name": "Extended Stein-Zimmermann Accidentals",
+       "range": "extendedSteinZimmermannAccidentals"
+      }
+     ]
+    },
+    {
+     "name": "Time Signatures",
+     "icon": "timeSignaturesTemplate",
+     "children": [
+      {
+       "name": "Time Signatures",
+       "range": "timeSignatures"
+      },
+      {
+       "name": "Time Signatures Supplement",
+       "range": "timeSignaturesSupplement"
+      }
+     ]
+    },
+    {
+     "name": "Repetitions",
+     "icon": "repetitionsTemplate",
+     "children": [
+      {
+       "name": "Tremolos",
+       "range": "tremolos"
+      },
+      {
+       "name": "Repeats",
+       "range": "repeats"
+      },
+      {
+       "name": "Bar Repeats",
+       "range": "barRepeats"
+      }
+     ]
+    },
+    {
+     "name": "Dynamics",
+     "icon": "dynamicsTemplate",
+     "range": "dynamics"
+    },
+    {
+     "name": "Articulations",
+     "icon": "articulationsTemplate",
+     "children": [
+      {
+       "name": "Articulation",
+       "range": "articulation"
+      },
+      {
+       "name": "Articulation Supplement",
+       "range": "articulationSupplement"
+      }
+     ]
+    },
+    {
+     "name": "Holds & Pauses",
+     "icon": "holdsPausesTemplate",
+     "range": "holdsAndPauses"
+    },
+    {
+     "name": "Ornaments & Lines",
+     "icon": "ornamentsTemplate",
+     "children": [
+      {
+       "name": "Common Ornaments",
+       "range": "commonOrnaments"
+      },
+      {
+       "name": "Other Baroque Ornaments",
+       "range": "otherBaroqueOrnaments"
+      },
+      {
+       "name": "Combining Strokes for Trills & Mordents",
+       "range": "combiningStrokesForTrillsAndMordents"
+      },
+      {
+       "name": "Precomposed Trills & Mordents",
+       "range": "precomposedTrillsAndMordents"
+      },
+      {
+       "name": "Trills",
+       "list": [
+        "wiggleTrillFastest",
+        "wiggleTrillFasterStill",
+        "wiggleTrillFaster",
+        "wiggleTrillFast",
+        "wiggleTrill",
+        "wiggleTrillSlow",
+        "wiggleTrillSlower",
+        "wiggleTrillSlowerStill",
+        "wiggleTrillSlowest"
+       ]
+      },
+      {
+       "name": "Arpeggios",
+       "list": [
+        "wiggleArpeggiatoUp",
+        "wiggleArpeggiatoDown",
+        "wiggleArpeggiatoUpSwash",
+        "wiggleArpeggiatoDownSwash",
+        "wiggleArpeggiatoUpArrow",
+        "wiggleArpeggiatoDownArrow"
+       ]
+      },
+      {
+       "name": "Glissando",
+       "list": [
+        "wiggleGlissando",
+        "wiggleGlissandoGroup1",
+        "wiggleGlissandoGroup2",
+        "wiggleGlissandoGroup3"
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Techniques",
+     "icon": "techniquesTemplate",
+     "children": [
+      {
+       "name": "Brass Techniques",
+       "range": "brassTechniques"
+      },
+      {
+       "name": "Wind Techniques",
+       "range": "windTechniques"
+      },
+      {
+       "name": "String Techniques",
+       "range": "stringTechniques"
+      },
+      {
+       "name": "Plucked Techniques",
+       "range": "pluckedTechniques"
+      },
+      {
+       "name": "Keyboard Techniques",
+       "range": "keyboardTechniques"
+      },
+      {
+       "name": "Harp Techniques",
+       "range": "harpTechniques"
+      },
+      {
+       "name": "Percussion Playing Technique Pictograms",
+       "range": "percussionPlayingTechniquePictograms"
+      }
+     ]
+    },
+    {
+     "name": "Signs & Texts",
+     "icon": "signsTextsTemplate",
+     "children": [
+      {
+       "name": "Metronome Marks",
+       "range": "metronomeMarks"
+      },
+      {
+       "name": "Fingering",
+       "range": "fingering"
+      },
+      {
+       "name": "Individual Notes",
+       "range": "individualNotes"
+      },
+      {
+       "name": "Beamed Groups of Notes",
+       "range": "beamedGroupsOfNotes"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "languages": [
+  {
+   "name": "SMuFL",
+   "icon": "smuflTemplate",
+   "predicate": "script == \"musical\"",
+   "hidden": "YES",
+   "precreate": [
+    {
+     "name": "SMuFL Common Glyphs",
+     "from": "category:SMuFL Common Glyphs"
+    },
+    {
+     "name": "SMuFL Glyphs",
+     "from": "all"
+    },
+    {
+     "name": "Clefs",
+     "from": "name:Clefs"
+    },
+    {
+     "name": "Time Signatures",
+     "from": "name:Time Signatures"
+    },
+    {
+     "name": "Notes & Rests",
+     "from": "basics:Notes & Rests"
+    }
+   ],
+   "children": [
+    {
+     "name": "Staff Structure",
+     "children": [
+      {
+       "name": "Staff Brackets & Dividers",
+       "range": "staffBracketsAndDividers"
+      },
+      {
+       "name": "Staves",
+       "range": "staves"
+      },
+      {
+       "name": "Barlines",
+       "range": "barlines"
+      }
+     ]
+    },
+    {
+     "name": "Clefs & Octaves",
+     "children": [
+      {
+       "name": "Clefs",
+       "class": "clefs"
+      },
+      {
+       "name": "Octaves",
+       "range": "octaves"
+      },
+      {
+       "name": "Clefs Supplement",
+       "range": "clefsSupplement"
+      },
+      {
+       "name": "Octaves Supplement",
+       "range": "octavesSupplement"
+      }
+     ]
+    },
+    {
+     "name": "Accidentals",
+     "children": [
+      {
+       "name": "Standard Accidentals (12-EDO)",
+       "range": "standardAccidentals12Edo"
+      },
+      {
+       "name": "Gould Arrow Quartertone Accidentals (24-EDO)",
+       "range": "gouldArrowQuartertoneAccidentals24Edo"
+      },
+      {
+       "name": "Stein-Zimmermann Accidentals (24-EDO)",
+       "range": "steinZimmermannAccidentals24Edo"
+      },
+      {
+       "name": "Extended Stein-Zimmermann Accidentals",
+       "range": "extendedSteinZimmermannAccidentals"
+      },
+      {
+       "name": "Sims Accidentals (72-EDO)",
+       "range": "simsAccidentals72Edo"
+      },
+      {
+       "name": "Johnston Accidentals (Just Intonation)",
+       "range": "johnstonAccidentalsJustIntonation"
+      },
+      {
+       "name": "Extended Helmholtz-Ellis Accidentals (Just Intonation)",
+       "range": "extendedHelmholtzEllisAccidentalsJustIntonation"
+      },
+      {
+       "name": "Extended Helmholtz-Ellis Accidentals (Just Intonation) Supplement",
+       "range": "extendedHelmholtzEllisAccidentalsJustIntonationSupplement"
+      },
+      {
+       "name": "Wyschnegradsky Accidentals (72-EDO)",
+       "range": "wyschnegradskyAccidentals72Edo"
+      },
+      {
+       "name": "Arel-Ezgi-Uzdilek (AEU) Accidentals",
+       "range": "arelEzgiUzdilekAeuAccidentals"
+      },
+      {
+       "name": "Stockhausen Accidentals (24-EDO)",
+       "range": "stockhausenAccidentals"
+      },
+      {
+       "name": "Sagittal Microtonal Notation",
+       "children": [
+        {
+         "name": "Spartan Sagittal single-shaft Accidentals",
+         "range": "spartanSagittalSingleShaftAccidentals"
+        },
+        {
+         "name": "Spartan Sagittal multi-shaft Accidentals",
+         "range": "spartanSagittalMultiShaftAccidentals"
+        },
+        {
+         "name": "Athenian Sagittal Extension (Medium Precision) Accidentals",
+         "range": "athenianSagittalExtensionMediumPrecisionAccidentals"
+        },
+        {
+         "name": "Trojan Sagittal Extension (12-EDO Relative) Accidentals",
+         "range": "trojanSagittalExtension12EdoRelativeAccidentals"
+        },
+        {
+         "name": "Promethean Sagittal Extension (High Precision) single-shaft Accidentals",
+         "range": "prometheanSagittalExtensionHighPrecisionSingleShaftAccidentals"
+        },
+        {
+         "name": "Promethean Sagittal Extension (High Precision) multi-shaft Accidentals",
+         "range": "prometheanSagittalExtensionHighPrecisionMultiShaftAccidentals"
+        },
+        {
+         "name": "Herculean Sagittal Extension (Very High Precision) Accidental Diacritics",
+         "range": "herculeanSagittalExtensionVeryHighPrecisionAccidentalDiacritics"
+        },
+        {
+         "name": "Olympian Sagittal Extension (Extreme Precision) Accidental Diacritics",
+         "range": "olympianSagittalExtensionExtremePrecisionAccidentalDiacritics"
+        },
+        {
+         "name": "Magrathean Sagittal Extension (Insane Precision) Accidental Diacritics",
+         "range": "magratheanSagittalExtensionInsanePrecisionAccidentalDiacritics"
+        }
+       ]
+      },
+      {
+       "name": "World Music",
+       "children": [
+        {
+         "name": "Arabic Accidentals",
+         "range": "arabicAccidentals"
+        },
+        {
+         "name": "Persian Accidentals",
+         "range": "persianAccidentals"
+        },
+        {
+         "name": "Turkish Folk Music Accidentals",
+         "range": "turkishFolkMusicAccidentals"
+        }
+       ]
+      },
+      {
+       "name": "Other Accidentals",
+       "range": "otherAccidentals"
+      },
+      {
+       "name": "Other Accidentals Supplement",
+       "range": "otherAccidentalsSupplement"
+      }
+     ]
+    },
+    {
+     "name": "Articulations",
+     "children": [
+      {
+       "name": "Articulation",
+       "range": "articulation"
+      },
+      {
+       "name": "Articulation Supplement",
+       "range": "articulationSupplement"
+      }
+     ]
+    },
+    {
+     "name": "Repetitions",
+     "children": [
+      {
+       "name": "Tremolos",
+       "range": "tremolos"
+      },
+      {
+       "name": "Repeats",
+       "range": "repeats"
+      },
+      {
+       "name": "Bar Repeats",
+       "range": "barRepeats"
+      }
+     ]
+    },
+    {
+     "name": "Ornaments",
+     "children": [
+      {
+       "name": "Common Ornaments",
+       "range": "commonOrnaments"
+      },
+      {
+       "name": "Other Baroque Ornaments",
+       "range": "otherBaroqueOrnaments"
+      },
+      {
+       "name": "Combining Strokes for Trills & Mordents",
+       "range": "combiningStrokesForTrillsAndMordents"
+      },
+      {
+       "name": "Precomposed Trills & Mordents",
+       "range": "precomposedTrillsAndMordents"
+      }
+     ]
+    },
+    {
+     "name": "Techniques",
+     "children": [
+      {
+       "name": "Brass Techniques",
+       "range": "brassTechniques"
+      },
+      {
+       "name": "Wind Techniques",
+       "range": "windTechniques"
+      },
+      {
+       "name": "String Techniques",
+       "range": "stringTechniques"
+      },
+      {
+       "name": "Plucked Techniques",
+       "range": "pluckedTechniques"
+      },
+      {
+       "name": "Vocal Techniques",
+       "range": "vocalTechniques"
+      },
+      {
+       "name": "Keyboard Techniques",
+       "range": "keyboardTechniques"
+      },
+      {
+       "name": "Harp Techniques",
+       "range": "harpTechniques"
+      },
+      {
+       "name": "Chop (Percussive Bowing) Notation",
+       "range": "chopNotation"
+      },
+      {
+       "name": "Techniques Noteheads",
+       "range": "techniquesNoteheads"
+      }
+     ]
+    },
+    {
+     "name": "Pictograms",
+     "children": [
+      {
+       "name": "Tuned Mallet Percussion Pictograms",
+       "range": "tunedMalletPercussionPictograms"
+      },
+      {
+       "name": "Chimes Pictograms",
+       "range": "chimesPictograms"
+      },
+      {
+       "name": "Drums Pictograms",
+       "range": "drumsPictograms"
+      },
+      {
+       "name": "Wooden Struck Or Scraped Percussion Pictograms",
+       "range": "woodenStruckOrScrapedPercussionPictograms"
+      },
+      {
+       "name": "Metallic Struck Percussion Pictograms",
+       "range": "metallicStruckPercussionPictograms"
+      },
+      {
+       "name": "Bells Pictograms",
+       "range": "bellsPictograms"
+      },
+      {
+       "name": "Cymbals Pictograms",
+       "range": "cymbalsPictograms"
+      },
+      {
+       "name": "Gongs Pictograms",
+       "range": "gongsPictograms"
+      },
+      {
+       "name": "Shakers Or Rattles Pictograms",
+       "range": "shakersOrRattlesPictograms"
+      },
+      {
+       "name": "Whistles & Aerophones Pictograms",
+       "range": "whistlesAndAerophonesPictograms"
+      },
+      {
+       "name": "Miscellaneous Percussion Instrument Pictograms",
+       "range": "miscellaneousPercussionInstrumentPictograms"
+      },
+      {
+       "name": "Beaters Pictograms",
+       "range": "beatersPictograms"
+      },
+      {
+       "name": "Percussion Playing Technique Pictograms",
+       "range": "percussionPlayingTechniquePictograms"
+      },
+      {
+       "name": "Electronic Music Pictograms",
+       "range": "electronicMusicPictograms"
+      }
+     ]
+    },
+    {
+     "name": "Symbols for Specific Instruments",
+     "children": [
+      {
+       "name": "Accordion",
+       "range": "accordion"
+      },
+      {
+       "name": "Guitar",
+       "range": "guitar"
+      },
+      {
+       "name": "Handbells",
+       "range": "handbells"
+      }
+     ]
+    },
+    {
+     "name": "Chord Symbols",
+     "children": [
+      {
+       "name": "Chord Symbols",
+       "range": "chordSymbols"
+      },
+      {
+       "name": "Chord Diagrams",
+       "range": "chordDiagrams"
+      },
+      {
+       "name": "Standard Accidentals for Chord Symbols",
+       "range": "standardAccidentalsChordSymbols"
+      }
+     ]
+    },
+    {
+     "name": "Analytics",
+     "children": [
+      {
+       "name": "Second Viennese School",
+       "range": "analytics"
+      },
+      {
+       "name": "Function Theory Symbols",
+       "range": "functionTheorySymbols"
+      },
+      {
+       "name": "Function Theory Symbols Supplement",
+       "range": "functionTheorySymbolsSupplement"
+      },
+      {
+       "name": "Scale Degrees",
+       "range": "scaleDegrees"
+      }
+     ]
+    },
+    {
+     "name": "Medieval & Renaissance Notations",
+     "children": [
+      {
+       "name": "Staves",
+       "range": "medievalAndRenaissanceStaves"
+      },
+      {
+       "name": "Clefs",
+       "range": "medievalAndRenaissanceClefs"
+      },
+      {
+       "name": "Prolations",
+       "range": "medievalAndRenaissanceProlations"
+      },
+      {
+       "name": "Prolations Supplement",
+       "range": "medievalAndRenaissanceProlationsSupplement"
+      },
+      {
+       "name": "Noteheads & Stems",
+       "range": "medievalAndRenaissanceNoteheadsAndStems"
+      },
+      {
+       "name": "Individual Notes",
+       "range": "medievalAndRenaissanceIndividualNotes"
+      },
+      {
+       "name": "Oblique Forms",
+       "range": "medievalAndRenaissanceObliqueForms"
+      },
+      {
+       "name": "Plainchant Single-Note Forms",
+       "range": "medievalAndRenaissancePlainchantSingleNoteForms"
+      },
+      {
+       "name": "Plainchant Multiple-Note Forms",
+       "range": "medievalAndRenaissancePlainchantMultipleNoteForms"
+      },
+      {
+       "name": "Plainchant Articulations",
+       "range": "medievalAndRenaissancePlainchantArticulations"
+      },
+      {
+       "name": "Accidentals",
+       "range": "medievalAndRenaissanceAccidentals"
+      },
+      {
+       "name": "Rests",
+       "range": "medievalAndRenaissanceRests"
+      },
+      {
+       "name": "Miscellany",
+       "range": "medievalAndRenaissanceMiscellany"
+      },
+      {
+       "name": "Symbols In CMN",
+       "range": "medievalAndRenaissanceSymbolsInCmn"
+      }
+     ]
+    },
+    {
+     "name": "Special Notations",
+     "children": [
+      {
+       "name": "Daseian Notation",
+       "range": "daseianNotation"
+      },
+      {
+       "name": "Kievan Square Notation",
+       "range": "kievanSquareNotation"
+      },
+      {
+       "name": "Kodály Hand Signs",
+       "range": "kodályHandSigns"
+      },
+      {
+       "name": "Simplified Music Notation",
+       "range": "simplifiedMusicNotation"
+      },
+      {
+       "name": "Kahnotation",
+       "range": "kahnotation"
+      }
+     ]
+    },
+    {
+     "name": "Graphics",
+     "children": [
+      {
+       "name": "Multi-segment Lines",
+       "range": "multiSegmentLines"
+      },
+      {
+       "name": "Arrows & Arrowheads",
+       "range": "arrowsAndArrowheads"
+      }
+     ]
+    },
+    {
+     "name": "Lute & Organ Tablatures",
+     "children": [
+      {
+       "name": "Renaissance Lute Tablature",
+       "range": "renaissanceLuteTablature"
+      },
+      {
+       "name": "French & English Renaissance Lute Tablature",
+       "range": "frenchAndEnglishRenaissanceLuteTablature"
+      },
+      {
+       "name": "Italian & Spanish Renaissance Lute Tablature",
+       "range": "italianAndSpanishRenaissanceLuteTablature"
+      },
+      {
+       "name": "German Renaissance Lute Tablature",
+       "range": "germanRenaissanceLuteTablature"
+      },
+      {
+       "name": "German Organ Tablature",
+       "range": "organGerman"
+      }
+     ]
+    },
+    {
+     "name": "Texts & Signs",
+     "children": [
+      {
+       "name": "Metronome Marks",
+       "range": "metronomeMarks"
+      },
+      {
+       "name": "Fingering",
+       "range": "fingering"
+      },
+      {
+       "name": "Fingering Supplement",
+       "range": "fingeringSupplement"
+      },
+      {
+       "name": "Figured Bass",
+       "range": "figuredBass"
+      },
+      {
+       "name": "Figured Bass Supplement",
+       "range": "figuredBassSupplement"
+      },
+      {
+       "name": "Lyrics",
+       "range": "lyrics"
+      },
+      {
+       "name": "Conductor Symbols",
+       "range": "conductorSymbols"
+      },
+      {
+       "name": "Miscellaneous Symbols",
+       "range": "miscellaneousSymbols"
+      },
+      {
+       "name": "Individual Notes",
+       "range": "individualNotes"
+      },
+      {
+       "name": "Beamed Groups of Notes",
+       "range": "beamedGroupsOfNotes"
+      }
+     ]
+    },
+    {
+     "name": "Controllers",
+     "children": [
+      {
+       "name": "Beams & Slurs",
+       "range": "beamsAndSlurs"
+      },
+      {
+       "name": "Combining Staff Positions",
+       "range": "combiningStaffPositions"
+      }
+     ]
+    },
+    {
+     "name": "All Supplements",
+     "children": [
+      {
+       "name": "Articulation Supplement",
+       "range": "articulationSupplement"
+      },
+      {
+       "name": "Clefs Supplement",
+       "range": "clefsSupplement"
+      },
+      {
+       "name": "Extended Helmholtz-Ellis Accidentals (Just Intonation) Supplement",
+       "range": "extendedHelmholtzEllisAccidentalsJustIntonationSupplement"
+      },
+      {
+       "name": "Figured Bass Supplement",
+       "range": "figuredBassSupplement"
+      },
+      {
+       "name": "Fingering Supplement",
+       "range": "fingeringSupplement"
+      },
+      {
+       "name": "Function Theory Symbols Supplement",
+       "range": "functionTheorySymbolsSupplement"
+      },
+      {
+       "name": "Medieval & Renaissance Prolations Supplement",
+       "range": "medievalAndRenaissanceProlationsSupplement"
+      },
+      {
+       "name": "Note Name Noteheads Supplement",
+       "range": "noteNameNoteheadsSupplement"
+      },
+      {
+       "name": "Noteheads Supplement",
+       "range": "noteheadsSupplement"
+      },
+      {
+       "name": "Octaves Supplement",
+       "range": "octavesSupplement"
+      },
+      {
+       "name": "Other Accidentals Supplement",
+       "range": "otherAccidentalsSupplement"
+      },
+      {
+       "name": "Shape Note Noteheads Supplement",
+       "range": "shapeNoteNoteheadsSupplement"
+      },
+      {
+       "name": "Time Signatures Supplement",
+       "range": "timeSignaturesSupplement"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

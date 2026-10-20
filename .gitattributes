@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.json  text eol=lf
+*.md    text eol=lf
+*.py    text eol=lf
+*.sh    text eol=lf
+*.svg   text eol=lf
+*.xml   text eol=lf
+*.plist text eol=lf
+
+*.pkg   binary
+*.zip   binary
+plugin/bundle/Contents/MacOS/plugin binary

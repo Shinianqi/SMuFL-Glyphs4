@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# build output
+build/
+dist/
+release/pkg/
+release/manual/
+*.pkg
+*.zip
+
+# local overrides
+smufl-config.json

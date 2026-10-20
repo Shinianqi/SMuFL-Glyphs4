@@ -1,0 +1,71 @@
+{
+ "version": 2,
+ "note": [
+  "GlyphData 的 anchors 属性。Glyphs 在 Glyph > Set Anchors（Cmd-U）时写入这些锚点，",
+  "不会在新建字形时自动生成。",
+  "语法：name@x表达式;y表达式，逗号分隔多个锚点。",
+  "变量：minX/maxX/width/centerX、minY/maxY/height/centerY、baseline、ascender、descender、xHeight、capHeight。",
+  "同一字形的多个锚点放在不同位置（角或边中点），不会重叠。"
+ ],
+ "rules": [
+  {
+   "ranges": [
+    "dynamics"
+   ],
+   "anchors": "opticalCenter@centerX;baseline"
+  },
+  {
+   "ranges": [
+    "noteheads",
+    "noteheadsSupplement",
+    "slashNoteheads",
+    "roundAndSquareNoteheads",
+    "noteNameNoteheads",
+    "noteNameNoteheadsSupplement",
+    "shapeNoteNoteheads",
+    "shapeNoteNoteheadsSupplement",
+    "noteClusters",
+    "techniquesNoteheads"
+   ],
+   "anchors": "stemUpSE@maxX;centerY, stemDownNW@minX;centerY, splitStemUpSE@maxX;maxY, splitStemDownNW@minX;minY"
+  },
+  {
+   "ranges": [
+    "multiSegmentLines"
+   ],
+   "anchors": "repeatOffset@maxX;baseline"
+  },
+  {
+   "ranges": [
+    "standardAccidentals12Edo",
+    "standardAccidentalsChordSymbols",
+    "gouldArrowQuartertoneAccidentals24Edo",
+    "steinZimmermannAccidentals24Edo",
+    "extendedSteinZimmermannAccidentals",
+    "simsAccidentals72Edo",
+    "johnstonAccidentalsJustIntonation",
+    "extendedHelmholtzEllisAccidentalsJustIntonation",
+    "extendedHelmholtzEllisAccidentalsJustIntonationSupplement",
+    "wyschnegradskyAccidentals72Edo",
+    "arelEzgiUzdilekAeuAccidentals",
+    "stockhausenAccidentals",
+    "turkishFolkMusicAccidentals",
+    "arabicAccidentals",
+    "persianAccidentals",
+    "otherAccidentals",
+    "otherAccidentalsSupplement",
+    "spartanSagittalSingleShaftAccidentals",
+    "spartanSagittalMultiShaftAccidentals",
+    "athenianSagittalExtensionMediumPrecisionAccidentals",
+    "trojanSagittalExtension12EdoRelativeAccidentals",
+    "prometheanSagittalExtensionHighPrecisionSingleShaftAccidentals",
+    "prometheanSagittalExtensionHighPrecisionMultiShaftAccidentals",
+    "herculeanSagittalExtensionVeryHighPrecisionAccidentalDiacritics",
+    "olympianSagittalExtensionExtremePrecisionAccidentalDiacritics",
+    "magratheanSagittalExtensionInsanePrecisionAccidentalDiacritics",
+    "medievalAndRenaissanceAccidentals"
+   ],
+   "anchors": "cutOutNE@maxX;maxY, cutOutNW@minX;maxY, cutOutSE@maxX;minY, cutOutSW@minX;minY"
+  }
+ ]
+}
