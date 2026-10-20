@@ -57,10 +57,10 @@ SMuFL Common Glyphs
 
 | 包 | 作用 |
 |---|---|
-| `SMuFL Glyphs.pkg` | 安装分类表 |
-| `SMuFL Glyphs Uninstall.pkg` | 卸载分类表 |
-| `SMuFL Metadata.pkg` | 安装导出插件 |
-| `SMuFL Metadata Uninstall.pkg` | 卸载导出插件 |
+| `SMuFL-Glyphs.pkg` | 安装分类表 |
+| `SMuFL-Glyphs-Uninstall.pkg` | 卸载分类表 |
+| `SMuFL-Metadata.pkg` | 安装导出插件 |
+| `SMuFL-Metadata-Uninstall.pkg` | 卸载导出插件 |
 
 装完 ⌘Q 退出 Glyphs 再打开。手动安装和详细说明见 [`release/README.md`](release/README.md)。
 
@@ -71,7 +71,7 @@ SMuFL Common Glyphs
 `glyphAdvanceWidths`、`glyphsWithAnchors`、`glyphBBoxes`、`glyphsWithAlternates`、
 `ligatures`、`sets`、`optionalGlyphs`。不修改 `.glyphs` 工程。
 
-安装：双击 `release/pkg/SMuFL Metadata.pkg`，或把
+安装：双击 `release/pkg/SMuFL-Metadata.pkg`，或把
 `release/manual/SMuFL Metadata/SMuFL Metadata.glyphsPlugin` 复制到：
 
 ```text

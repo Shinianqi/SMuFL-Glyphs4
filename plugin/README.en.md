@@ -8,7 +8,7 @@ Generates the SMuFL font metadata JSON from the current Glyphs 4 project.
 
 **A. Plugin (recommended)**
 
-Double-click `release/pkg/SMuFL Metadata.pkg`, or copy
+Double-click `release/pkg/SMuFL-Metadata.pkg`, or copy
 `release/manual/SMuFL Metadata/SMuFL Metadata.glyphsPlugin` to:
 
 ```text

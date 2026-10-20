@@ -8,7 +8,7 @@
 
 **A. 插件（推荐）**
 
-双击 `release/pkg/SMuFL Metadata.pkg`，或把
+双击 `release/pkg/SMuFL-Metadata.pkg`，或把
 `release/manual/SMuFL Metadata/SMuFL Metadata.glyphsPlugin` 复制到：
 
 ```text

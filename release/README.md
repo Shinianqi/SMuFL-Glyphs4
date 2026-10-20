@@ -6,10 +6,10 @@
 
 | 文件 | 作用 |
 |---|---|
-| `pkg/SMuFL Glyphs.pkg` | 安装分类表（GlyphData、Groups、图标、筛选器） |
-| `pkg/SMuFL Glyphs Uninstall.pkg` | 卸载分类表 |
-| `pkg/SMuFL Metadata.pkg` | 安装元数据导出插件 |
-| `pkg/SMuFL Metadata Uninstall.pkg` | 卸载元数据导出插件 |
+| `pkg/SMuFL-Glyphs.pkg` | 安装分类表（GlyphData、Groups、图标、筛选器） |
+| `pkg/SMuFL-Glyphs-Uninstall.pkg` | 卸载分类表 |
+| `pkg/SMuFL-Metadata.pkg` | 安装元数据导出插件 |
+| `pkg/SMuFL-Metadata-Uninstall.pkg` | 卸载元数据导出插件 |
 
 手动安装：
 
@@ -22,8 +22,8 @@
 
 两个组件互相独立，装哪个都可以。
 
-1. 双击 `SMuFL Glyphs.pkg`，按向导安装；
-2. 双击 `SMuFL Metadata.pkg`，按向导安装；
+1. 双击 `SMuFL-Glyphs.pkg`，按向导安装；
+2. 双击 `SMuFL-Metadata.pkg`，按向导安装；
 3. ⌘Q 完全退出 Glyphs，再打开。
 
 安装包未签名，首次打开如果被 Gatekeeper 拦截，右键 → 打开。

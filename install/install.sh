@@ -1,5 +1,5 @@
 #!/bin/bash
-# Development-only installer. End users should use release/pkg/SMuFL Glyphs.pkg
+# Development-only installer. End users should use release/pkg/SMuFL-Glyphs.pkg
 # or release/manual/SMuFL Glyphs/.
 #
 # Install the SMuFL data files into Glyphs' Application Support folder.

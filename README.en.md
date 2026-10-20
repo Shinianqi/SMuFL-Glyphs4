@@ -57,10 +57,10 @@ Use the packages in `release/pkg/`:
 
 | Package | Purpose |
 |---|---|
-| `SMuFL Glyphs.pkg` | Install the classification tables |
-| `SMuFL Glyphs Uninstall.pkg` | Remove them |
-| `SMuFL Metadata.pkg` | Install the exporter plugin |
-| `SMuFL Metadata Uninstall.pkg` | Remove it |
+| `SMuFL-Glyphs.pkg` | Install the classification tables |
+| `SMuFL-Glyphs-Uninstall.pkg` | Remove them |
+| `SMuFL-Metadata.pkg` | Install the exporter plugin |
+| `SMuFL-Metadata-Uninstall.pkg` | Remove it |
 
 Quit Glyphs completely (Cmd-Q) and reopen. Manual install and details:
 [`release/README.md`](release/README.md).
@@ -73,7 +73,7 @@ Runs from the Glyphs 4 Script menu and writes the SMuFL font metadata JSON:
 `glyphsWithAlternates`, `ligatures`, `sets`, `optionalGlyphs`. It does not
 modify the `.glyphs` project.
 
-Install with `release/pkg/SMuFL Metadata.pkg`, or copy
+Install with `release/pkg/SMuFL-Metadata.pkg`, or copy
 `release/manual/SMuFL Metadata/SMuFL Metadata.glyphsPlugin` into
 `~/Library/Application Support/Glyphs 4/Plugins/`.
 See [`plugin/README.md`](plugin/README.md).

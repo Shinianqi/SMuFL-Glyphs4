@@ -8,7 +8,7 @@ Glyphs 4 の現在のプロジェクトから SMuFL のフォントメタデー�
 
 **A. プラグイン（推奨）**
 
-`release/pkg/SMuFL Metadata.pkg` をダブルクリックするか、
+`release/pkg/SMuFL-Metadata.pkg` をダブルクリックするか、
 `release/manual/SMuFL Metadata/SMuFL Metadata.glyphsPlugin` を次にコピーします。
 
 ```text

@@ -6,10 +6,10 @@ Install/uninstall packages for the two components, plus manual install files.
 
 | File | Purpose |
 |---|---|
-| `pkg/SMuFL Glyphs.pkg` | Install the classification tables (GlyphData, Groups, icons, filters) |
-| `pkg/SMuFL Glyphs Uninstall.pkg` | Remove them |
-| `pkg/SMuFL Metadata.pkg` | Install the metadata exporter plugin |
-| `pkg/SMuFL Metadata Uninstall.pkg` | Remove it |
+| `pkg/SMuFL-Glyphs.pkg` | Install the classification tables (GlyphData, Groups, icons, filters) |
+| `pkg/SMuFL-Glyphs-Uninstall.pkg` | Remove them |
+| `pkg/SMuFL-Metadata.pkg` | Install the metadata exporter plugin |
+| `pkg/SMuFL-Metadata-Uninstall.pkg` | Remove it |
 
 Manual install:
 
@@ -22,8 +22,8 @@ Manual install:
 
 The two components are independent; install either one.
 
-1. Double-click `SMuFL Glyphs.pkg` and follow the installer.
-2. Double-click `SMuFL Metadata.pkg` and follow the installer.
+1. Double-click `SMuFL-Glyphs.pkg` and follow the installer.
+2. Double-click `SMuFL-Metadata.pkg` and follow the installer.
 3. Quit Glyphs completely (Cmd-Q) and reopen it.
 
 The packages are unsigned. If Gatekeeper blocks the first launch, right-click

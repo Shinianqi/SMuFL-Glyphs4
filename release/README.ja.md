@@ -7,10 +7,10 @@
 
 | ファイル | 用途 |
 |---|---|
-| `pkg/SMuFL Glyphs.pkg` | 分類表（GlyphData、Groups、アイコン、フィルタ）をインストール |
-| `pkg/SMuFL Glyphs Uninstall.pkg` | 分類表を削除 |
-| `pkg/SMuFL Metadata.pkg` | メタデータ書き出しプラグインをインストール |
-| `pkg/SMuFL Metadata Uninstall.pkg` | プラグインを削除 |
+| `pkg/SMuFL-Glyphs.pkg` | 分類表（GlyphData、Groups、アイコン、フィルタ）をインストール |
+| `pkg/SMuFL-Glyphs-Uninstall.pkg` | 分類表を削除 |
+| `pkg/SMuFL-Metadata.pkg` | メタデータ書き出しプラグインをインストール |
+| `pkg/SMuFL-Metadata-Uninstall.pkg` | プラグインを削除 |
 
 手動インストール:
 
@@ -23,8 +23,8 @@
 
 2 つのコンポーネントは独立しています。どちらだけでも構いません。
 
-1. `SMuFL Glyphs.pkg` をダブルクリックして手順に従います。
-2. `SMuFL Metadata.pkg` をダブルクリックして手順に従います。
+1. `SMuFL-Glyphs.pkg` をダブルクリックして手順に従います。
+2. `SMuFL-Metadata.pkg` をダブルクリックして手順に従います。
 3. ⌘Q で Glyphs を完全に終了し、再起動します。
 
 パッケージは署名されていません。初回起動時に Gatekeeper に止められた場合は、

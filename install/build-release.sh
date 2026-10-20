@@ -45,7 +45,7 @@ USER_HOME_SNIPPET='USER_NAME="$(stat -f%Su /dev/console)"
 HOME_DIR="$(dscl . -read "/Users/$USER_NAME" NFSHomeDirectory 2>/dev/null | awk "{print \$2}")"
 [ -n "$HOME_DIR" ] || HOME_DIR="/Users/$USER_NAME"'
 
-# ------------------------------------------------------- SMuFL Glyphs.pkg
+# ------------------------------------------------------- SMuFL-Glyphs.pkg
 mkdir -p "$WORK/glyphs/private/tmp/smufl-glyphs-payload"
 cp -R "$MAN/SMuFL Glyphs/Info" "$WORK/glyphs/private/tmp/smufl-glyphs-payload/Info"
 cp -R "$MAN/SMuFL Glyphs/Filters" "$WORK/glyphs/private/tmp/smufl-glyphs-payload/Filters"
@@ -81,10 +81,10 @@ pkgbuild --root "$WORK/glyphs" \
          --install-location "/" \
          --ownership recommended \
          "$WORK/glyphs.pkg" >/dev/null
-productbuild --package "$WORK/glyphs.pkg" "$PKG/SMuFL Glyphs.pkg" >/dev/null
-echo "built release/pkg/SMuFL Glyphs.pkg"
+productbuild --package "$WORK/glyphs.pkg" "$PKG/SMuFL-Glyphs.pkg" >/dev/null
+echo "built release/pkg/SMuFL-Glyphs.pkg"
 
-# --------------------------------------------- SMuFL Glyphs Uninstall.pkg
+# --------------------------------------------- SMuFL-Glyphs-Uninstall.pkg
 ICON_LIST="$(cd "$ROOT/icons" && ls *Template.svg | tr '\n' ' ')"
 mkdir -p "$WORK/glyphs-uninstall"
 cat > "$WORK/glyphs-uninstall/postinstall" <<EOF
@@ -139,10 +139,10 @@ EOF
 productbuild --distribution "$WORK/glyphs-uninstall/Distribution" \
              --resources "$WORK/uninstall-glyphs-res" \
              --package-path "$WORK" \
-             "$PKG/SMuFL Glyphs Uninstall.pkg" >/dev/null
-echo "built release/pkg/SMuFL Glyphs Uninstall.pkg"
+             "$PKG/SMuFL-Glyphs-Uninstall.pkg" >/dev/null
+echo "built release/pkg/SMuFL-Glyphs-Uninstall.pkg"
 
-# ----------------------------------------------------- SMuFL Metadata.pkg
+# ----------------------------------------------------- SMuFL-Metadata.pkg
 mkdir -p "$WORK/plugin/private/tmp/smufl-metadata-payload"
 cp -R "$ROOT/build/SMuFL Metadata.glyphsPlugin" \
       "$WORK/plugin/private/tmp/smufl-metadata-payload/"
@@ -169,10 +169,10 @@ pkgbuild --root "$WORK/plugin" \
          --install-location "/" \
          --ownership recommended \
          "$WORK/plugin.pkg" >/dev/null
-productbuild --package "$WORK/plugin.pkg" "$PKG/SMuFL Metadata.pkg" >/dev/null
-echo "built release/pkg/SMuFL Metadata.pkg"
+productbuild --package "$WORK/plugin.pkg" "$PKG/SMuFL-Metadata.pkg" >/dev/null
+echo "built release/pkg/SMuFL-Metadata.pkg"
 
-# ------------------------------------------- SMuFL Metadata Uninstall.pkg
+# ------------------------------------------- SMuFL-Metadata-Uninstall.pkg
 mkdir -p "$WORK/plugin-uninstall"
 cat > "$WORK/plugin-uninstall/postinstall" <<EOF
 #!/bin/bash
@@ -215,8 +215,8 @@ EOF
 productbuild --distribution "$WORK/plugin-uninstall/Distribution" \
              --resources "$WORK/uninstall-plugin-res" \
              --package-path "$WORK" \
-             "$PKG/SMuFL Metadata Uninstall.pkg" >/dev/null
-echo "built release/pkg/SMuFL Metadata Uninstall.pkg"
+             "$PKG/SMuFL-Metadata-Uninstall.pkg" >/dev/null
+echo "built release/pkg/SMuFL-Metadata-Uninstall.pkg"
 
 echo
 echo "release/"
