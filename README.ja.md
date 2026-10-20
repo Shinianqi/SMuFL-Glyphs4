@@ -50,7 +50,9 @@ SMuFL Common Glyphs
 
 ### インストール
 
-`release/` の pkg を使います。詳細は [`release/README.md`](release/README.md)。
+`release/` の pkg を使います。署名されていないため初回起動は macOS に
+ブロックされます。手順と手動インストールは
+[`release/README.ja.md`](release/README.ja.md) を参照してください。
 
 ## 書き出しプラグイン
 

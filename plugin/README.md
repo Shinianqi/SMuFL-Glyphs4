@@ -15,6 +15,8 @@
 ~/Library/Application Support/Glyphs 4/Plugins/
 ```
 
+pkg 未签名，首次打开的处理步骤见 [`release/README.md`](../release/README.md)。
+
 重启 Glyphs 后，**Script** 菜单里会多出 `Export SMuFL Metadata…`。
 
 **B. 脚本**

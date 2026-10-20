@@ -62,7 +62,7 @@ SMuFL Common Glyphs
 | `SMuFL-Metadata.pkg` | 安装导出插件 |
 | `SMuFL-Metadata-Uninstall.pkg` | 卸载导出插件 |
 
-装完 ⌘Q 退出 Glyphs 再打开。手动安装和详细说明见 [`release/README.md`](release/README.md)。
+装完 ⌘Q 退出 Glyphs 再打开。首次打开未签名安装包会被 macOS 拦截，处理步骤和手动安装见 [`release/README.md`](release/README.md)。
 
 ## 导出器
 

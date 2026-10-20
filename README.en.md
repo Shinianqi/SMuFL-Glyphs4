@@ -62,8 +62,9 @@ Use the packages in `release/pkg/`:
 | `SMuFL-Metadata.pkg` | Install the exporter plugin |
 | `SMuFL-Metadata-Uninstall.pkg` | Remove it |
 
-Quit Glyphs completely (Cmd-Q) and reopen. Manual install and details:
-[`release/README.md`](release/README.md).
+Quit Glyphs completely (Cmd-Q) and reopen. The first launch of an unsigned
+package is blocked by macOS; the steps and manual install are in
+[`release/README.md`](release/README.en.md).
 
 ## Exporter
 

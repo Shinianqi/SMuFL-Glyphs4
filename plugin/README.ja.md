@@ -15,6 +15,9 @@ Glyphs 4 の現在のプロジェクトから SMuFL のフォントメタデー�
 ~/Library/Application Support/Glyphs 4/Plugins/
 ```
 
+pkg は署名されていないため、初回起動時の手順は
+[`release/README.ja.md`](../release/README.ja.md) を参照してください。
+
 Glyphs を再起動すると、**Script** メニューに `Export SMuFL Metadata…` が追加されます。
 
 **B. スクリプト**

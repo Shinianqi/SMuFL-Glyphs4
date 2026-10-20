@@ -15,6 +15,9 @@ Double-click `release/pkg/SMuFL-Metadata.pkg`, or copy
 ~/Library/Application Support/Glyphs 4/Plugins/
 ```
 
+The package is unsigned; the first-launch steps are in
+[`release/README.en.md`](../release/README.en.md).
+
 Restart Glyphs. **Script > Export SMuFL Metadata…** appears in the menu.
 
 **B. Script**
