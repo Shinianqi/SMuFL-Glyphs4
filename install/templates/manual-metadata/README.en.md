@@ -41,7 +41,7 @@ Put `smufl_metadata_exporter.py` and `smufl_glyphnames.json` in:
 ~/Library/Application Support/Glyphs 4/Scripts/
 ```
 
-Then **Script > Reload Scripts**.
+Then hold Option and choose **Script → Reload Scripts** (Cmd-Opt-Shift-Y), or restart Glyphs.
 
 ## Uninstall
 

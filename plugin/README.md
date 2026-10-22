@@ -28,7 +28,7 @@ plugin/smufl_metadata_exporter.py
 data/generated/smufl_glyphnames.json
 ```
 
-然后 **Script → Reload Scripts**。
+然后按住 Option，选择 **Script → Reload Scripts**（⌘⌥⇧Y），或直接重启 Glyphs。
 
 两种方式都需要 Glyphs 自带的 Python 能 import PyObjC。缺的话运行
 `plugin/install_pyobjc.command`（或参考该文件里的手动命令），装完 ⌘Q 重启。

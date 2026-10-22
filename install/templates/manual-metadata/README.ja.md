@@ -42,7 +42,7 @@
 ~/Library/Application Support/Glyphs 4/Scripts/
 ```
 
-その後 **Script > Reload Scripts**。
+その後 Option キーを押しながら **Script → Reload Scripts**（⌘⌥⇧Y）を選ぶか、Glyphs を再起動します。
 
 ## アンインストール
 

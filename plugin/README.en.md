@@ -29,7 +29,7 @@ plugin/smufl_metadata_exporter.py
 data/generated/smufl_glyphnames.json
 ```
 
-Then **Script > Reload Scripts**.
+Then hold Option and choose **Script → Reload Scripts** (Cmd-Opt-Shift-Y), or restart Glyphs.
 
 Both need PyObjC in the Python that Glyphs uses. If it is missing, run
 `plugin/install_pyobjc.command` (or the manual command in that file), then

@@ -40,7 +40,7 @@
 ~/Library/Application Support/Glyphs 4/Scripts/
 ```
 
-然后 **Script > Reload Scripts**。
+然后按住 Option，选择 **Script → Reload Scripts**（⌘⌥⇧Y），或直接重启 Glyphs。
 
 ## 卸载
 
