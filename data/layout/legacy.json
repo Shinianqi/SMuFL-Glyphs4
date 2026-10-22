@@ -892,8 +892,28 @@
      "icon": "staffTemplate",
      "children": [
       {
-       "name": "Staff Brackets & Dividers",
-       "range": "staffBracketsAndDividers"
+       "name": "Staff Brackets",
+       "list": [
+        "brace",
+        "reversedBrace",
+        "bracket",
+        "bracketTop",
+        "bracketBottom",
+        "reversedBracketTop",
+        "reversedBracketBottom"
+       ]
+      },
+      {
+       "name": "Staff Dividers",
+       "list": [
+        "systemDivider",
+        "systemDividerLong",
+        "systemDividerExtraLong",
+        "splitBarDivider",
+        "staffDivideArrowDown",
+        "staffDivideArrowUp",
+        "staffDivideArrowUpDown"
+       ]
       },
       {
        "name": "Staves",
@@ -933,10 +953,6 @@
         {
          "name": "Slash Noteheads",
          "range": "slashNoteheads"
-        },
-        {
-         "name": "Note Clusters",
-         "range": "noteClusters"
         }
        ]
       },
@@ -974,10 +990,6 @@
       {
        "name": "Stein-Zimmermann Accidentals (24-EDO)",
        "range": "steinZimmermannAccidentals24Edo"
-      },
-      {
-       "name": "Extended Stein-Zimmermann Accidentals",
-       "range": "extendedSteinZimmermannAccidentals"
       }
      ]
     },

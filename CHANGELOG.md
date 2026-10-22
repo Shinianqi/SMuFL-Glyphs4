@@ -9,8 +9,10 @@
 - 从 SMuFL 1.5 (draft) 官方元数据（`w3c-cg/smufl`，commit `f9d12b2`）生成：
   `GlyphData-SMuFL.xml`（2,940 字形）、`Groups-SMuFL.plist`。
 - 侧边栏：`SMuFL Glyphs`（Classes A-Z 85 + Ranges A-Z 132）、
-  `SMuFL Common Glyphs`（12 组，969 字形）。
+  `SMuFL Common Glyphs`（12 组，916 字形）。
 - `Ornaments & Lines` 下含 Trills、Arpeggios、Glissando、Combining Strokes。
+- `Staff Structure` 拆分为 Staff Brackets / Staff Dividers；移除 Note Clusters 与
+  Extended Stein-Zimmermann Accidentals。
 - 启动窗口 5 个入口：`SMuFL Common Glyphs`、`SMuFL Glyphs`、`Clefs`、
   `Time Signatures`、`Notes & Rests`。
 - 字形按 Unicode 码位排序；两个数字开头的字形名改为 Glyphs 可接受的拼写。

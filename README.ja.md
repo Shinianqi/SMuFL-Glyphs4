@@ -21,14 +21,10 @@ Glyphs 4 は macOS アプリです。本リポジトリはその SMuFL 分類表
 | グリフ | 2,940 |
 | classes | 85 |
 | ranges | 132 |
-| サイドバー分類 | `SMuFL Glyphs`、`SMuFL Common Glyphs` |
+| サイドバー分類 | `SMuFL Common Glyphs`、`SMuFL Glyphs` |
 | 起動ウィンドウの項目 | 5 |
 
 ```text
-SMuFL Glyphs
-├── Classes A-Z
-└── Ranges A-Z
-
 SMuFL Common Glyphs
 ├── Staff Structure
 ├── Clefs & Octaves
@@ -42,10 +38,14 @@ SMuFL Common Glyphs
 ├── Ornaments & Lines
 ├── Techniques
 └── Signs & Texts
+
+SMuFL Glyphs
+├── Classes A-Z
+└── Ranges A-Z
 ```
 
-起動ウィンドウ：`SMuFL Common Glyphs`（969）、`SMuFL Glyphs`（2,940）、
-`Clefs`（61）、`Time Signatures`（32）、`Notes & Rests`（212）。
+起動ウィンドウ：`SMuFL Common Glyphs`（916）、`SMuFL Glyphs`（2,940）、
+`Clefs`（61）、`Time Signatures`（32）、`Notes & Rests`（172）。
 グリフは Unicode コードポイント順に並びます。
 
 ### インストール

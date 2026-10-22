@@ -8190,7 +8190,7 @@
 					<array>
 						<dict>
 							<key>name</key>
-							<string>Staff Brackets &amp; Dividers</string>
+							<string>Staff Brackets</string>
 							<key>list</key>
 							<array>
 								<string>brace</string>
@@ -8200,6 +8200,13 @@
 								<string>bracketBottom</string>
 								<string>reversedBracketTop</string>
 								<string>reversedBracketBottom</string>
+							</array>
+						</dict>
+						<dict>
+							<key>name</key>
+							<string>Staff Dividers</string>
+							<key>list</key>
+							<array>
 								<string>systemDivider</string>
 								<string>systemDividerLong</string>
 								<string>systemDividerExtraLong</string>
@@ -8474,53 +8481,6 @@
 										<string>noteheadSlashWhiteDoubleWhole</string>
 									</array>
 								</dict>
-								<dict>
-									<key>name</key>
-									<string>Note Clusters</string>
-									<key>list</key>
-									<array>
-										<string>noteheadClusterSquareWhite</string>
-										<string>noteheadClusterSquareBlack</string>
-										<string>noteheadClusterRoundWhite</string>
-										<string>noteheadClusterRoundBlack</string>
-										<string>noteheadClusterDoubleWhole2nd</string>
-										<string>noteheadClusterWhole2nd</string>
-										<string>noteheadClusterHalf2nd</string>
-										<string>noteheadClusterQuarter2nd</string>
-										<string>noteheadClusterDoubleWhole3rd</string>
-										<string>noteheadClusterWhole3rd</string>
-										<string>noteheadClusterHalf3rd</string>
-										<string>noteheadClusterQuarter3rd</string>
-										<string>noteheadClusterDoubleWholeTop</string>
-										<string>noteheadClusterDoubleWholeMiddle</string>
-										<string>noteheadClusterDoubleWholeBottom</string>
-										<string>noteheadClusterWholeTop</string>
-										<string>noteheadClusterWholeMiddle</string>
-										<string>noteheadClusterWholeBottom</string>
-										<string>noteheadClusterHalfTop</string>
-										<string>noteheadClusterHalfMiddle</string>
-										<string>noteheadClusterHalfBottom</string>
-										<string>noteheadClusterQuarterTop</string>
-										<string>noteheadClusterQuarterMiddle</string>
-										<string>noteheadClusterQuarterBottom</string>
-										<string>noteheadDiamondClusterWhite2nd</string>
-										<string>noteheadDiamondClusterBlack2nd</string>
-										<string>noteheadDiamondClusterWhite3rd</string>
-										<string>noteheadDiamondClusterBlack3rd</string>
-										<string>noteheadDiamondClusterWhiteTop</string>
-										<string>noteheadDiamondClusterWhiteMiddle</string>
-										<string>noteheadDiamondClusterWhiteBottom</string>
-										<string>noteheadDiamondClusterBlackTop</string>
-										<string>noteheadDiamondClusterBlackMiddle</string>
-										<string>noteheadDiamondClusterBlackBottom</string>
-										<string>noteheadRectangularClusterBlackTop</string>
-										<string>noteheadRectangularClusterBlackMiddle</string>
-										<string>noteheadRectangularClusterBlackBottom</string>
-										<string>noteheadRectangularClusterWhiteTop</string>
-										<string>noteheadRectangularClusterWhiteMiddle</string>
-										<string>noteheadRectangularClusterWhiteBottom</string>
-									</array>
-								</dict>
 							</array>
 						</dict>
 						<dict>
@@ -8679,26 +8639,6 @@
 								<string>accidentalThreeQuarterTonesSharpStein</string>
 								<string>accidentalNarrowReversedFlat</string>
 								<string>accidentalNarrowReversedFlatAndFlat</string>
-							</array>
-						</dict>
-						<dict>
-							<key>name</key>
-							<string>Extended Stein-Zimmermann Accidentals</string>
-							<key>list</key>
-							<array>
-								<string>accidentalReversedFlatArrowUp</string>
-								<string>accidentalReversedFlatArrowDown</string>
-								<string>accidentalFilledReversedFlatArrowUp</string>
-								<string>accidentalFilledReversedFlatArrowDown</string>
-								<string>accidentalReversedFlatAndFlatArrowUp</string>
-								<string>accidentalReversedFlatAndFlatArrowDown</string>
-								<string>accidentalFilledReversedFlatAndFlat</string>
-								<string>accidentalFilledReversedFlatAndFlatArrowUp</string>
-								<string>accidentalFilledReversedFlatAndFlatArrowDown</string>
-								<string>accidentalHalfSharpArrowUp</string>
-								<string>accidentalHalfSharpArrowDown</string>
-								<string>accidentalOneAndAHalfSharpsArrowUp</string>
-								<string>accidentalOneAndAHalfSharpsArrowDown</string>
 							</array>
 						</dict>
 					</array>
@@ -9816,46 +9756,6 @@
 						<string>noteheadSlashHorizontalEndsMuted</string>
 						<string>noteheadSlashWhiteMuted</string>
 						<string>noteheadSlashWhiteDoubleWhole</string>
-						<string>noteheadClusterSquareWhite</string>
-						<string>noteheadClusterSquareBlack</string>
-						<string>noteheadClusterRoundWhite</string>
-						<string>noteheadClusterRoundBlack</string>
-						<string>noteheadClusterDoubleWhole2nd</string>
-						<string>noteheadClusterWhole2nd</string>
-						<string>noteheadClusterHalf2nd</string>
-						<string>noteheadClusterQuarter2nd</string>
-						<string>noteheadClusterDoubleWhole3rd</string>
-						<string>noteheadClusterWhole3rd</string>
-						<string>noteheadClusterHalf3rd</string>
-						<string>noteheadClusterQuarter3rd</string>
-						<string>noteheadClusterDoubleWholeTop</string>
-						<string>noteheadClusterDoubleWholeMiddle</string>
-						<string>noteheadClusterDoubleWholeBottom</string>
-						<string>noteheadClusterWholeTop</string>
-						<string>noteheadClusterWholeMiddle</string>
-						<string>noteheadClusterWholeBottom</string>
-						<string>noteheadClusterHalfTop</string>
-						<string>noteheadClusterHalfMiddle</string>
-						<string>noteheadClusterHalfBottom</string>
-						<string>noteheadClusterQuarterTop</string>
-						<string>noteheadClusterQuarterMiddle</string>
-						<string>noteheadClusterQuarterBottom</string>
-						<string>noteheadDiamondClusterWhite2nd</string>
-						<string>noteheadDiamondClusterBlack2nd</string>
-						<string>noteheadDiamondClusterWhite3rd</string>
-						<string>noteheadDiamondClusterBlack3rd</string>
-						<string>noteheadDiamondClusterWhiteTop</string>
-						<string>noteheadDiamondClusterWhiteMiddle</string>
-						<string>noteheadDiamondClusterWhiteBottom</string>
-						<string>noteheadDiamondClusterBlackTop</string>
-						<string>noteheadDiamondClusterBlackMiddle</string>
-						<string>noteheadDiamondClusterBlackBottom</string>
-						<string>noteheadRectangularClusterBlackTop</string>
-						<string>noteheadRectangularClusterBlackMiddle</string>
-						<string>noteheadRectangularClusterBlackBottom</string>
-						<string>noteheadRectangularClusterWhiteTop</string>
-						<string>noteheadRectangularClusterWhiteMiddle</string>
-						<string>noteheadRectangularClusterWhiteBottom</string>
 						<string>noteDoubleWhole</string>
 						<string>noteDoubleWholeSquare</string>
 						<string>noteWhole</string>
@@ -9994,19 +9894,6 @@
 						<string>accidentalThreeQuarterTonesSharpStein</string>
 						<string>accidentalNarrowReversedFlat</string>
 						<string>accidentalNarrowReversedFlatAndFlat</string>
-						<string>accidentalReversedFlatArrowUp</string>
-						<string>accidentalReversedFlatArrowDown</string>
-						<string>accidentalFilledReversedFlatArrowUp</string>
-						<string>accidentalFilledReversedFlatArrowDown</string>
-						<string>accidentalReversedFlatAndFlatArrowUp</string>
-						<string>accidentalReversedFlatAndFlatArrowDown</string>
-						<string>accidentalFilledReversedFlatAndFlat</string>
-						<string>accidentalFilledReversedFlatAndFlatArrowUp</string>
-						<string>accidentalFilledReversedFlatAndFlatArrowDown</string>
-						<string>accidentalHalfSharpArrowUp</string>
-						<string>accidentalHalfSharpArrowDown</string>
-						<string>accidentalOneAndAHalfSharpsArrowUp</string>
-						<string>accidentalOneAndAHalfSharpsArrowDown</string>
 						<string>articAccentAbove</string>
 						<string>articAccentBelow</string>
 						<string>articStaccatoAbove</string>
@@ -13707,46 +13594,6 @@
 						<string>noteheadSlashHorizontalEndsMuted</string>
 						<string>noteheadSlashWhiteMuted</string>
 						<string>noteheadSlashWhiteDoubleWhole</string>
-						<string>noteheadClusterSquareWhite</string>
-						<string>noteheadClusterSquareBlack</string>
-						<string>noteheadClusterRoundWhite</string>
-						<string>noteheadClusterRoundBlack</string>
-						<string>noteheadClusterDoubleWhole2nd</string>
-						<string>noteheadClusterWhole2nd</string>
-						<string>noteheadClusterHalf2nd</string>
-						<string>noteheadClusterQuarter2nd</string>
-						<string>noteheadClusterDoubleWhole3rd</string>
-						<string>noteheadClusterWhole3rd</string>
-						<string>noteheadClusterHalf3rd</string>
-						<string>noteheadClusterQuarter3rd</string>
-						<string>noteheadClusterDoubleWholeTop</string>
-						<string>noteheadClusterDoubleWholeMiddle</string>
-						<string>noteheadClusterDoubleWholeBottom</string>
-						<string>noteheadClusterWholeTop</string>
-						<string>noteheadClusterWholeMiddle</string>
-						<string>noteheadClusterWholeBottom</string>
-						<string>noteheadClusterHalfTop</string>
-						<string>noteheadClusterHalfMiddle</string>
-						<string>noteheadClusterHalfBottom</string>
-						<string>noteheadClusterQuarterTop</string>
-						<string>noteheadClusterQuarterMiddle</string>
-						<string>noteheadClusterQuarterBottom</string>
-						<string>noteheadDiamondClusterWhite2nd</string>
-						<string>noteheadDiamondClusterBlack2nd</string>
-						<string>noteheadDiamondClusterWhite3rd</string>
-						<string>noteheadDiamondClusterBlack3rd</string>
-						<string>noteheadDiamondClusterWhiteTop</string>
-						<string>noteheadDiamondClusterWhiteMiddle</string>
-						<string>noteheadDiamondClusterWhiteBottom</string>
-						<string>noteheadDiamondClusterBlackTop</string>
-						<string>noteheadDiamondClusterBlackMiddle</string>
-						<string>noteheadDiamondClusterBlackBottom</string>
-						<string>noteheadRectangularClusterBlackTop</string>
-						<string>noteheadRectangularClusterBlackMiddle</string>
-						<string>noteheadRectangularClusterBlackBottom</string>
-						<string>noteheadRectangularClusterWhiteTop</string>
-						<string>noteheadRectangularClusterWhiteMiddle</string>
-						<string>noteheadRectangularClusterWhiteBottom</string>
 						<string>stem</string>
 						<string>stemSprechgesang</string>
 						<string>stemSwished</string>

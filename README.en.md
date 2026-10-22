@@ -21,14 +21,10 @@ Sidebar with both categories:
 | Glyphs | 2,940 |
 | Classes | 85 |
 | Ranges | 132 |
-| Sidebar categories | `SMuFL Glyphs`, `SMuFL Common Glyphs` |
+| Sidebar categories | `SMuFL Common Glyphs`, `SMuFL Glyphs` |
 | Startup-window presets | 5 |
 
 ```text
-SMuFL Glyphs
-├── Classes A-Z
-└── Ranges A-Z
-
 SMuFL Common Glyphs
 ├── Staff Structure
 ├── Clefs & Octaves
@@ -42,10 +38,14 @@ SMuFL Common Glyphs
 ├── Ornaments & Lines
 ├── Techniques
 └── Signs & Texts
+
+SMuFL Glyphs
+├── Classes A-Z
+└── Ranges A-Z
 ```
 
-Presets: `SMuFL Common Glyphs` (969), `SMuFL Glyphs` (2,940), `Clefs` (61),
-`Time Signatures` (32), `Notes & Rests` (212). Glyphs sort by codepoint.
+Presets: `SMuFL Common Glyphs` (916), `SMuFL Glyphs` (2,940), `Clefs` (61),
+`Time Signatures` (32), `Notes & Rests` (172). Glyphs sort by codepoint.
 
 Anchors: run **Glyph > Set Anchors (Cmd-U)** to add `opticalCenter` (dynamics)
 and `stemUpSE` / `stemDownNW` / split stem anchors (noteheads). See

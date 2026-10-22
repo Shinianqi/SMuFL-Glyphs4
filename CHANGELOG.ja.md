@@ -9,8 +9,10 @@
 - SMuFL 1.5（draft）の公式メタデータ（`w3c-cg/smufl`、commit `f9d12b2`）から生成:
   `GlyphData-SMuFL.xml`（2,940 グリフ）と `Groups-SMuFL.plist`。
 - サイドバー: `SMuFL Glyphs`（Classes A-Z 85 + Ranges A-Z 132）と
-  `SMuFL Common Glyphs`（12 グループ、969 グリフ）。
+  `SMuFL Common Glyphs`（12 グループ、916 グリフ）。
 - `Ornaments & Lines` に Trills、Arpeggios、Glissando、Combining Strokes を収録。
+- `Staff Structure` を Staff Brackets と Staff Dividers に分割。Note Clusters と
+  Extended Stein-Zimmermann Accidentals を削除。
 - 起動ウィンドウの 5 項目: `SMuFL Common Glyphs`、`SMuFL Glyphs`、`Clefs`、
   `Time Signatures`、`Notes & Rests`。
 - グリフは Unicode コードポイント順。数字で始まる 2 つの名前は Glyphs が

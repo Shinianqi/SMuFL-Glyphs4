@@ -21,14 +21,10 @@ Glyphs 4 是一款 macOS 应用。本仓库为它提供 SMuFL 分类表和字体
 | 字形 | 2,940 |
 | classes | 85 |
 | ranges | 132 |
-| 侧边栏分类 | `SMuFL Glyphs`、`SMuFL Common Glyphs` |
+| 侧边栏分类 | `SMuFL Common Glyphs`、`SMuFL Glyphs` |
 | 启动窗口入口 | 5 |
 
 ```text
-SMuFL Glyphs
-├── Classes A-Z
-└── Ranges A-Z
-
 SMuFL Common Glyphs
 ├── Staff Structure
 ├── Clefs & Octaves
@@ -42,10 +38,14 @@ SMuFL Common Glyphs
 ├── Ornaments & Lines
 ├── Techniques
 └── Signs & Texts
+
+SMuFL Glyphs
+├── Classes A-Z
+└── Ranges A-Z
 ```
 
-启动窗口提供 5 个预创建入口：`SMuFL Common Glyphs`（969）、`SMuFL Glyphs`（2,940）、`Clefs`（61）、
-`Time Signatures`（32）、`Notes & Rests`（212）。字形按 Unicode 码位排序。
+启动窗口提供 5 个预创建入口：`SMuFL Common Glyphs`（916）、`SMuFL Glyphs`（2,940）、`Clefs`（61）、
+`Time Signatures`（32）、`Notes & Rests`（172）。字形按 Unicode 码位排序。
 
 锚点：选中字形后执行 **Glyph > Set Anchors（⌘U）**，会写入
 `opticalCenter`（Dynamics）以及 `stemUpSE`、`stemDownNW` 等（音符类）。

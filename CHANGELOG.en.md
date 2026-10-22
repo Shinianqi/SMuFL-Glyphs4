@@ -10,9 +10,11 @@
   commit `f9d12b2`): `GlyphData-SMuFL.xml` (2,940 glyphs) and
   `Groups-SMuFL.plist`.
 - Sidebar: `SMuFL Glyphs` (Classes A-Z 85 + Ranges A-Z 132) and
-  `SMuFL Common Glyphs` (12 groups, 969 glyphs).
+  `SMuFL Common Glyphs` (12 groups, 916 glyphs).
 - `Ornaments & Lines` contains Trills, Arpeggios, Glissando and Combining
   Strokes.
+- `Staff Structure` is split into Staff Brackets and Staff Dividers; Note
+  Clusters and Extended Stein-Zimmermann Accidentals are removed.
 - Five startup-window presets: `SMuFL Common Glyphs`, `SMuFL Glyphs`, `Clefs`,
   `Time Signatures`, `Notes & Rests`.
 - Glyphs sort by Unicode codepoint; the two digit-leading names get a
