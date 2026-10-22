@@ -2,6 +2,17 @@
 
 > 中国語版を優先します。[中文](CHANGELOG.md) · [English](CHANGELOG.en.md)
 
+## 1.0.1 — 2026-10-22
+
+### 分類表
+
+- `SMuFL Common Glyphs` を 916 グリフに調整:
+  - `Staff Structure` を Staff Brackets と Staff Dividers に分割;
+  - Note Clusters（40）と Extended Stein-Zimmermann Accidentals（13）を削除。
+- README の分類順を実際のサイドバー表示（Common が先）に合わせた。
+
+機能的な変更はありません。
+
 ## 1.0.0 — 2026-10-20
 
 ### 分類表
@@ -9,10 +20,8 @@
 - SMuFL 1.5（draft）の公式メタデータ（`w3c-cg/smufl`、commit `f9d12b2`）から生成:
   `GlyphData-SMuFL.xml`（2,940 グリフ）と `Groups-SMuFL.plist`。
 - サイドバー: `SMuFL Glyphs`（Classes A-Z 85 + Ranges A-Z 132）と
-  `SMuFL Common Glyphs`（12 グループ、916 グリフ）。
+  `SMuFL Common Glyphs`（12 グループ、969 グリフ）。
 - `Ornaments & Lines` に Trills、Arpeggios、Glissando、Combining Strokes を収録。
-- `Staff Structure` を Staff Brackets と Staff Dividers に分割。Note Clusters と
-  Extended Stein-Zimmermann Accidentals を削除。
 - 起動ウィンドウの 5 項目: `SMuFL Common Glyphs`、`SMuFL Glyphs`、`Clefs`、
   `Time Signatures`、`Notes & Rests`。
 - グリフは Unicode コードポイント順。数字で始まる 2 つの名前は Glyphs が

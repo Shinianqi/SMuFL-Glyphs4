@@ -2,6 +2,19 @@
 
 > Chinese is the primary language. [中文](CHANGELOG.md) · [日本語](CHANGELOG.ja.md)
 
+## 1.0.1 — 2026-10-22
+
+### Classification tables
+
+- `SMuFL Common Glyphs` is now 916 glyphs:
+  - `Staff Structure` is split into Staff Brackets and Staff Dividers;
+  - Note Clusters (40) and Extended Stein-Zimmermann Accidentals (13) are
+    removed.
+- The README lists the categories in the order the sidebar actually shows
+  them (Common first).
+
+No functional changes.
+
 ## 1.0.0 — 2026-10-20
 
 ### Classification tables
@@ -10,11 +23,9 @@
   commit `f9d12b2`): `GlyphData-SMuFL.xml` (2,940 glyphs) and
   `Groups-SMuFL.plist`.
 - Sidebar: `SMuFL Glyphs` (Classes A-Z 85 + Ranges A-Z 132) and
-  `SMuFL Common Glyphs` (12 groups, 916 glyphs).
+  `SMuFL Common Glyphs` (12 groups, 969 glyphs).
 - `Ornaments & Lines` contains Trills, Arpeggios, Glissando and Combining
   Strokes.
-- `Staff Structure` is split into Staff Brackets and Staff Dividers; Note
-  Clusters and Extended Stein-Zimmermann Accidentals are removed.
 - Five startup-window presets: `SMuFL Common Glyphs`, `SMuFL Glyphs`, `Clefs`,
   `Time Signatures`, `Notes & Rests`.
 - Glyphs sort by Unicode codepoint; the two digit-leading names get a
