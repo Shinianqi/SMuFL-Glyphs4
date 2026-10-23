@@ -16,7 +16,7 @@ The tests inject a small mock of the Glyphs 4 object model (`font.masters`,
 `SMUFL_EXPORTER_NO_MAIN=1` stops the script from running its Glyphs menu
 entry on import.
 
-There are **57 tests**, covering:
+There are **59 tests**, covering:
 
 - staff space conversion (UPM 1000 / 2048);
 - canonical names, aliases, Unicode fallback, refusing to guess;

@@ -52,6 +52,12 @@ data/generated/smufl_glyphnames.json
 
 写入是原子的：失败时不会留下半个文件，也不会改动 `.glyphs` 工程。
 
+## 字形命名
+
+脚本不会改字形名。Glyphs 通常根据 Unicode 生成 production name（`uniE050`），
+导出前确认每个 SMuFL 字形都设了 Unicode；如果流程依赖字形名与码位一致，
+按原有步骤改名。
+
 ## 配置
 
 把 `smufl-config.example.json` 复制成 `.glyphs` 旁边的
@@ -77,7 +83,7 @@ cd plugin
 SMUFL_EXPORTER_NO_MAIN=1 python3 -m unittest discover -s tests -v
 ```
 
-57 个单元测试，使用模拟的 Glyphs 对象模型，不需要安装 Glyphs。
+59 个单元测试，使用模拟的 Glyphs 对象模型，不需要安装 Glyphs。
 
 真实字体的无界面验证见 `tests/README.md`。
 

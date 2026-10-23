@@ -55,6 +55,13 @@ Written next to the `.glyphs` file as `<font name>.json`.
 Writes are atomic: a failure leaves no partial file and never modifies the
 `.glyphs` project.
 
+## Glyph names
+
+The script does not rename glyphs. Glyphs normally derives the production name
+from Unicode (`uniE050`), so make sure every SMuFL glyph has its Unicode set
+before export. If your workflow relies on glyph names matching codepoints, run
+your usual rename step.
+
 ## Configuration
 
 Copy `smufl-config.example.json` to `<font file name>.smufl-config.json`
@@ -80,7 +87,7 @@ cd plugin
 SMUFL_EXPORTER_NO_MAIN=1 python3 -m unittest discover -s tests -v
 ```
 
-57 unit tests against a mock Glyphs object model; no Glyphs installation
+59 unit tests against a mock Glyphs object model; no Glyphs installation
 needed. Real-font headless checks are described in `tests/README.md`.
 
 ## Glyph name differences

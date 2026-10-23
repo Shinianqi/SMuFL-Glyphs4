@@ -15,7 +15,7 @@ SMUFL_EXPORTER_NO_MAIN=1 python3 -m unittest discover -s tests -v
 
 `SMUFL_EXPORTER_NO_MAIN=1` 用于阻止导入脚本时自动执行 Glyphs 菜单入口。
 
-当前共有 **57 个测试**，覆盖：
+当前共有 **59 个测试**，覆盖：
 
 - staff space 换算（UPM 1000 / 2048）；
 - 规范名、别名、Unicode 兜底、拒绝乱猜；

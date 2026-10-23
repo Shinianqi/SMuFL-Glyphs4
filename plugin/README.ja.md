@@ -55,6 +55,13 @@ data/generated/smufl_glyphnames.json
 書き込みはアトミックです。失敗しても中途半端なファイルを残さず、`.glyphs`
 プロジェクトも変更しません。
 
+## グリフ名
+
+スクリプトはグリフ名を変更しません。Glyphs は通常 Unicode から production name
+（`uniE050`）を生成するため、書き出し前に各 SMuFL グリフの Unicode を確認して
+ください。グリフ名とコードポイントを一致させる運用の場合は、従来どおり改名して
+から書き出してください。
+
 ## 設定
 
 `smufl-config.example.json` を `.glyphs` ファイルの隣に
@@ -80,7 +87,7 @@ cd plugin
 SMUFL_EXPORTER_NO_MAIN=1 python3 -m unittest discover -s tests -v
 ```
 
-モックの Glyphs オブジェクトモデルを使う 57 個の単体テストです。Glyphs の
+モックの Glyphs オブジェクトモデルを使う 59 個の単体テストです。Glyphs の
 インストールは不要です。実フォントでの確認は `tests/README.md` を参照してください。
 
 ## Glyphs でのグリフ名の違い
