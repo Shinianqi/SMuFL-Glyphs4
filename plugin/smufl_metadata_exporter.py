@@ -954,13 +954,10 @@ def _font_version(font: Any, config: Dict[str, Any], report: Report) -> Optional
             "(it is interpreted as three decimal digits).",
         )
         return None
-    # Match the decimal major.minor convention used by SMufoLib/UFO and by
-    # the user's existing metadata (e.g. 2 + 1 -> 2.1, 1 + 482 -> 1.482).
-    # This is deliberately different from Glyphs' internal three-digit
-    # font-revision formatting; supply fontVersion in the config if the
-    # compiled font uses a different revision.
+    # SMuFL uses a three-digit fraction: 1 + 5 -> 1.005, 1 + 482 -> 1.482.
+    # Without zero-padding, minor 5 and minor 50 both become 1.5.
     try:
-        value = float(f"{major}.{minor}")
+        value = float(f"{major}.{minor:03d}")
     except ValueError:
         report.error("fontVersion-format", f"Invalid Glyphs version {major}.{minor}.")
         return None
@@ -1580,7 +1577,7 @@ def _measure_engraving_ruler(layer: Any, ruler: str) -> Optional[float]:
             candidates,
             key=lambda p: math.hypot(p[1] - ref[1], p[2] - ref[2]),
         )
-        return round(math.hypot(nearest[1] - ref[1], nearest[2] - ref[2]))
+        return math.hypot(nearest[1] - ref[1], nearest[2] - ref[2])
 
     return None
 
@@ -1741,7 +1738,8 @@ def _optional_glyphs(
         result[name] = entry
         name_to_cp[name] = cp
         cp_to_name[cp] = name
-        if name.lower().startswith("uni") and re.fullmatch(r"uni[0-9A-F]{4,6}", name):
+        lowered = name.lower()
+        if lowered.startswith("uni") and re.fullmatch(r"uni[0-9a-f]{4,6}", lowered):
             generic_names.append(name)
     if generic_names:
         shown = ", ".join(generic_names[:20])
@@ -1976,7 +1974,7 @@ def _extract_glyph_data(
                     report.incr("optional_glyphs_with_anchors")
 
         unicodes = _glyph_unicodes(glyph, report)
-        is_member = resolution.kind == "optional" or any(
+        is_member = resolution.kind in ("canonical", "alias", "optional") or any(
             0xE000 <= cp <= 0xF8FF for cp, _ in unicodes
         )
         if include_bboxes and is_member:
@@ -2017,6 +2015,14 @@ def _extract_glyph_data(
             report.error("manual-anchors-shape", "'glyphsWithAnchors' in the configuration must be an object.")
         else:
             present = set(anchors)
+            resolver = GlyphNameResolver(glyphnames, config, Report())
+            font_output_names = set()
+            for glyph in getattr(font, "glyphs", []):
+                if not getattr(glyph, "export", True):
+                    continue
+                resolution = resolver.resolve(glyph, quiet=True)
+                if resolution is not None:
+                    font_output_names.add(resolution.name)
             for glyph_name, manual_anchors in manual.items():
                 if not isinstance(glyph_name, str) or not glyph_name:
                     report.error("manual-anchors-name", "Manual glyph keys must be non-empty strings.")
@@ -2029,9 +2035,7 @@ def _extract_glyph_data(
                         "nor a declared optional glyph; not merged.",
                     )
                     continue
-                if glyph_name not in present and not _font_has_output_name(
-                    font, glyph_name, glyphnames, config
-                ):
+                if glyph_name not in present and glyph_name not in font_output_names:
                     report.error(
                         "manual-anchors-missing",
                         f"Manual anchors were configured for '{glyph_name}', but no "
@@ -2156,22 +2160,6 @@ def _extract_glyph_data(
 
     return (anchors, bboxes, widths, optional, optional_name_to_cp,
             alternates_section, ligatures_section, sets_section)
-
-def _font_has_output_name(
-    font: Any,
-    name: str,
-    glyphnames: GlyphNameData,
-    config: Dict[str, Any],
-) -> bool:
-    """Best-effort existence check for a manual glyph key."""
-    resolver = GlyphNameResolver(glyphnames, config, Report())
-    for glyph in getattr(font, "glyphs", []):
-        if not getattr(glyph, "export", True):
-            continue
-        resolution = resolver.resolve(glyph, quiet=True)
-        if resolution is not None and resolution.name == name:
-            return True
-    return False
 
 
 # ---------------------------------------------------------------------------

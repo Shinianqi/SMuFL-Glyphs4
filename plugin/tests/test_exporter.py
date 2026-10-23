@@ -328,12 +328,27 @@ class TestMetadataAndConfig(BaseCase):
     def test_version_conversion_decimal(self):
         font = make_font(glyphs=[], version_major=2, version_minor=1)
         result = run_export(font, self.tmpdir)
-        self.assertEqual(result.metadata["fontVersion"], 2.1)
+        self.assertEqual(result.metadata["fontVersion"], 2.001)
+
+    def test_version_conversion_zero_pads_minor(self):
+        font = make_font(glyphs=[], version_major=1, version_minor=5)
+        result = run_export(font, self.tmpdir)
+        self.assertEqual(result.metadata["fontVersion"], 1.005)
+
+        font = make_font(glyphs=[], version_major=1, version_minor=50)
+        result = run_export(font, self.tmpdir)
+        self.assertEqual(result.metadata["fontVersion"], 1.05)
 
     def test_version_conversion_482(self):
         font = make_font(glyphs=[], version_major=1, version_minor=482)
         result = run_export(font, self.tmpdir)
         self.assertEqual(result.metadata["fontVersion"], 1.482)
+
+    def test_canonical_glyph_without_unicode_exports_geometry(self):
+        glyph = Glyph("noteheadBlack", None, width=600, bounds=Rect(0, 0, 600, 500))
+        result = run_export(make_font(glyphs=[glyph]), self.tmpdir)
+        self.assertIn("noteheadBlack", result.metadata["glyphBBoxes"])
+        self.assertIn("noteheadBlack", result.metadata["glyphAdvanceWidths"])
 
     def test_missing_font_name_and_version_aborts(self):
         font = make_font(glyphs=[], family_name="", version_major=None, version_minor=None)
