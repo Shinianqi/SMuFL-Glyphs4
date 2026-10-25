@@ -64,9 +64,65 @@ data/generated/smufl_glyphnames.json
 
 ## 設定
 
-`smufl-config.example.json` を `.glyphs` ファイルの隣に
-`<フォントファイル名>.smufl-config.json`（例: `MyFont.smufl-config.json`）
-としてコピーし、必要な項目だけ上書きします。すべてのキーは任意です。
+設定ファイルやカスタムパラメータがなくても書き出せます。
+
+自動測定値を上書きしたい、マスターを指定したい、別名や手動アンカーを追加したい、
+出力の一部を止めたい場合だけ、次の二つを使います。
+
+### Glyphs のカスタムパラメータ
+
+Font Info → Font → Custom Parameters に追加します:
+
+| パラメータ | 値 | 単位 |
+|---|---|---|
+| `SMuFL Design Size` | 正の整数 1 つ | decipoint（1/720 インチ）。`120` = 12 pt |
+| `SMuFL Size Range` | 正の整数 2 つ。`80, 480` または `80 480` | decipoint。`80, 480` = 8–48 pt |
+
+どちらも任意です。ない場合、対応する `designSize` / `sizeRange` は省略されます。
+
+### 設定ファイル
+
+`smufl-config.example.json` を次の名前でコピーします:
+
+```
+<プロジェクトファイル名>.smufl-config.json
+```
+
+`.glyphs` ファイルの隣に置きます。名前はプロジェクトファイル名から取り、
+ファミリー名ではありません:
+
+```
+Naruto.glyphs          → Naruto.smufl-config.json
+Naruto-Regular.glyphs  → Naruto-Regular.smufl-config.json
+```
+
+必要なキーだけ変更します。`null` は「上書きしない」の意味です。
+`SMUFL_CONFIG_PATH` で別の場所を指定することもできます。
+
+設定ファイルはすべてのキーを上書きでき、カスタムパラメータではできない部分も扱えます:
+
+| キー | 用途 | 単位 / 例 |
+|---|---|---|
+| `fontName` | ファミリー名を上書き | `"Naruto"` |
+| `fontVersion` | バージョンを上書き | `1.234` |
+| `designSize` | 最適サイズを上書き | decipoint、`120` |
+| `sizeRange` | サイズ範囲を上書き | `[80, 480]` |
+| `master` | 複数マスターから選ぶ | 名前または ID、`"Regular"` |
+| `metadataSource` | 既存 JSON をフォールバックに使う | `.glyphs` からの相対パス |
+| `engravingDefaults` | 個別の測定値やテキストフォントを上書き | staff space。`textFontFamily` は配列 |
+| `setsTemplate` | `ssNN` の type/description を上書き | 例を参照 |
+| `glyphNameAliases` | 独自名を SMuFL 名へ対応づける | `{"myFlat": "accidentalFlat"}` |
+| `glyphsWithAnchors` | アンカーを追加・上書き | staff space、`[x, y]` |
+| `include*` | 出力セクションを止める | `false` で出力しない |
+| `_comment` | 自由記述 | 書き出しでは無視 |
+
+`designSize` / `sizeRange` の優先順位:
+
+```
+設定ファイル > Glyphs のカスタムパラメータ > metadataSource > 出力しない
+```
+
+両方ある場合は設定ファイルが優先です。`null` にするとカスタムパラメータを使います。
 
 ## データファイル
 

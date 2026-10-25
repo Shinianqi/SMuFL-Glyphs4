@@ -64,9 +64,67 @@ your usual rename step.
 
 ## Configuration
 
-Copy `smufl-config.example.json` to `<font file name>.smufl-config.json`
-next to the `.glyphs` file (for example `MyFont.smufl-config.json`) and
-override what you need. Every key is optional.
+The exporter works without a config file or custom parameters.
+
+Use the two options below only when you want to override measured values, pick
+a master, add aliases or manual anchors, or turn off parts of the output.
+
+### Glyphs custom parameters
+
+Add these in Font Info → Font → Custom Parameters:
+
+| Parameter | Value | Unit |
+|---|---|---|
+| `SMuFL Design Size` | one positive integer | decipoints (1/720 inch); `120` = 12 pt |
+| `SMuFL Size Range` | two positive integers, e.g. `80, 480` or `80 480` | decipoints; `80, 480` = 8–48 pt |
+
+Both are optional; without them the corresponding `designSize` / `sizeRange`
+is omitted.
+
+### Configuration file
+
+Copy `smufl-config.example.json` to:
+
+```
+<project file name>.smufl-config.json
+```
+
+next to the `.glyphs` file. The name comes from the project file, not the
+family name:
+
+```
+Naruto.glyphs          → Naruto.smufl-config.json
+Naruto-Regular.glyphs  → Naruto-Regular.smufl-config.json
+```
+
+Edit only the keys you need; `null` means "do not override".
+`SMUFL_CONFIG_PATH` can point elsewhere.
+
+The config file can override any key, including things custom parameters cannot:
+
+| Key | Purpose | Unit / example |
+|---|---|---|
+| `fontName` | override the family name | `"Naruto"` |
+| `fontVersion` | override the version | `1.234` |
+| `designSize` | override the design size | decipoints, `120` |
+| `sizeRange` | override the size range | `[80, 480]` |
+| `master` | pick a master when there are several | name or ID, `"Regular"` |
+| `metadataSource` | fall back to an existing JSON | path relative to the `.glyphs` file |
+| `engravingDefaults` | override individual measurements or the text font | staff spaces; `textFontFamily` is an array |
+| `setsTemplate` | override `ssNN` type/description | see the example |
+| `glyphNameAliases` | map custom names to SMuFL names | `{"myFlat": "accidentalFlat"}` |
+| `glyphsWithAnchors` | add or override anchors | staff spaces, `[x, y]` |
+| `include*` | switch output sections off | `false` omits the section |
+| `_comment` | free-form note | ignored by the exporter |
+
+Priority for `designSize` / `sizeRange`:
+
+```
+config file > Glyphs custom parameters > metadataSource > omitted
+```
+
+If both are set, the config file wins; leave the key `null` to use the custom
+parameter.
 
 ## Data files
 

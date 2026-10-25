@@ -60,9 +60,61 @@ data/generated/smufl_glyphnames.json
 
 ## 配置
 
-把 `smufl-config.example.json` 复制成 `.glyphs` 旁边的
-`<字体文件名>.smufl-config.json`（例如 `MyFont.smufl-config.json`），
-按需覆盖。所有键都是可选的。
+不建配置文件、不加自定义参数也能正常导出。只有想覆盖自动测量值、指定母版、
+补充别名或手动锚点、关闭某些输出字段时，才用下面两种方式。
+
+### Glyphs 自定义参数
+
+在 Font Info → Font → Custom Parameters 里加：
+
+| 参数 | 值 | 单位 |
+|---|---|---|
+| `SMuFL Design Size` | 单个正整数 | decipoint（1/720 英寸）；`120` = 12 pt |
+| `SMuFL Size Range` | 两个正整数，可写成 `80, 480` 或 `80 480` | decipoint；`80, 480` = 8–48 pt |
+
+两个都是可选的；没有就省略对应的 `designSize` / `sizeRange`。
+
+### 配置文件
+
+复制 `smufl-config.example.json` 成：
+
+```
+<工程文件名>.smufl-config.json
+```
+
+放在 `.glyphs` 旁边。文件名取工程文件名，不是家族名：
+
+```
+Naruto.glyphs          → Naruto.smufl-config.json
+Naruto-Regular.glyphs  → Naruto-Regular.smufl-config.json
+```
+
+只改需要的键，`null` 表示不覆盖。也可以用 `SMUFL_CONFIG_PATH` 指定其他路径。
+
+配置文件可以覆盖所有键，包括自定义参数做不到的部分：
+
+| 键 | 作用 | 单位 / 示例 |
+|---|---|---|
+| `fontName` | 覆盖家族名 | `"Naruto"` |
+| `fontVersion` | 覆盖版本号 | `1.234` |
+| `designSize` | 覆盖优化字号 | decipoint，`120` |
+| `sizeRange` | 覆盖字号范围 | `[80, 480]` |
+| `master` | 多母版时指定读哪个 | 名称或 ID，`"Regular"` |
+| `metadataSource` | 指定旧 JSON 作为回退 | 相对 `.glyphs` 的路径 |
+| `engravingDefaults` | 单项覆盖测量值或文本字体 | staff space；`textFontFamily` 是数组 |
+| `setsTemplate` | 覆盖 `ssNN` 的 type/description | 见示例 |
+| `glyphNameAliases` | 自定义名映射到 SMuFL 名 | `{"myFlat": "accidentalFlat"}` |
+| `glyphsWithAnchors` | 手动补/改锚点 | staff space，`[x, y]` |
+| `include*` | 关闭某些输出段 | `false` 即不输出 |
+| `_comment` | 说明文字 | 导出器忽略 |
+
+`designSize` / `sizeRange` 的优先级：
+
+```
+配置文件 > Glyphs 自定义参数 > metadataSource > 不输出
+```
+
+两边都填时配置文件赢；配置文件里留 `null`，就走自定义参数。
 
 ## 数据文件
 

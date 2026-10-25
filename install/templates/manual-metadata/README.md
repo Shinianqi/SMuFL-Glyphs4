@@ -30,7 +30,7 @@
 ### 配置
 
 把 `smufl-config.example.json` 复制成工程旁边的
-`<字体文件名>.smufl-config.json`，按需修改。所有键都是可选的。
+`<工程文件名>.smufl-config.json`，按需修改。所有键都是可选的。
 
 ### 用脚本版代替
 

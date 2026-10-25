@@ -30,7 +30,7 @@ The output contains SMuFL `engravingDefaults`, `glyphAdvanceWidths`,
 
 ### Configuration
 
-Copy `smufl-config.example.json` to `<font file name>.smufl-config.json`
+Copy `smufl-config.example.json` to `<project file name>.smufl-config.json`
 next to the project and edit what you need. Every key is optional.
 
 ### Script version instead

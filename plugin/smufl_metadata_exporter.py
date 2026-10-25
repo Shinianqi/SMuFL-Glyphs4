@@ -664,7 +664,7 @@ def load_sets_template(script_dir: str, config: Dict[str, Any], report: Report) 
 # ---------------------------------------------------------------------------
 
 def default_config_path(font: Any) -> Optional[str]:
-    """Return <font-stem>.smufl-config.json next to the .glyphs file."""
+    """Return the sidecar .smufl-config.json path next to the .glyphs project."""
     try:
         filepath = str(font.filepath or "")
     except Exception:
