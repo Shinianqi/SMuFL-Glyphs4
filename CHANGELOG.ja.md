@@ -2,6 +2,31 @@
 
 > 中国語版を優先します。[中文](CHANGELOG.md) · [English](CHANGELOG.en.md)
 
+## 1.1.0 — 2026-10-27
+
+### 書き出し
+
+- `fontVersion` の小数部を 3 桁にゼロ埋め（`1 + 5` → `1.005`）。
+- Unicode のない canonical / alias グリフでも bbox と advance width を書き出す。
+- `wedgeArmStrokeWidth` を整数に丸めない。
+- 手動アンカーの検証で毎回フォント全体を走査しない。
+- `uniXXXX` の大文字小文字チェックを修正。
+
+### ドキュメント
+
+- プラグイン README に設定の説明を追加: `SMuFL Design Size` /
+  `SMuFL Size Range` の単位・例・優先順位と、設定ファイルのキー一覧。
+- グリフ名の説明を追加。Reload Scripts は Option キーを押す旨に修正。
+- 設定例のコメントを英語に変更。
+
+### データ
+
+- 上流を `a86fde4e` に更新: Sagittal の説明 3 件の NBSP を通常のスペースに変更。
+
+### ライセンス
+
+- Bravura の OFL 本文を正式な著作権表示に更新。
+
 ## 1.0.1 — 2026-10-22
 
 ### 分類表

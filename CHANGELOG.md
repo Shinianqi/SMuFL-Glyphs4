@@ -2,6 +2,31 @@
 
 > 中文为准。[English](CHANGELOG.en.md) · [日本語](CHANGELOG.ja.md)
 
+## 1.1.0 — 2026-10-27
+
+### 导出器
+
+- `fontVersion` 的小数部分固定三位补零：`1 + 5` → `1.005`。
+- 没有 Unicode 的 canonical / alias 字形也导出 bbox 和 advance width。
+- `wedgeArmStrokeWidth` 不再提前取整。
+- 手动锚点校验不再为每条配置重扫整个字体。
+- 修正 `uniXXXX` 名字的大小写检查。
+
+### 文档
+
+- 插件 README 增加配置说明：`SMuFL Design Size` / `SMuFL Size Range` 的单位、
+  示例和优先级，以及配置文件各键的用途。
+- 增加字形命名说明；Reload Scripts 改为需要按住 Option。
+- 配置示例改用英文注释。
+
+### 数据
+
+- 上游刷新到 `a86fde4e`：3 条 Sagittal 描述中的 NBSP 改为普通空格。
+
+### 许可
+
+- Bravura 的 OFL 文本改用正式版本，不再使用空白模板。
+
 ## 1.0.1 — 2026-10-22
 
 ### 分类表

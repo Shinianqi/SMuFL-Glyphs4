@@ -2,6 +2,34 @@
 
 > Chinese is the primary language. [中文](CHANGELOG.md) · [日本語](CHANGELOG.ja.md)
 
+## 1.1.0 — 2026-10-27
+
+### Exporter
+
+- `fontVersion` now zero-pads the minor part to three digits (`1 + 5` → `1.005`).
+- Canonical and alias glyphs without Unicode now export bbox and advance width.
+- `wedgeArmStrokeWidth` is no longer rounded to whole font units.
+- Manual-anchor validation no longer rescans the whole font for every entry.
+- Fixed the case check for `uniXXXX` names.
+
+### Documentation
+
+- Plugin README now documents configuration: `SMuFL Design Size` /
+  `SMuFL Size Range`, their units, examples and precedence, plus the config
+  file keys.
+- Added glyph-naming guidance; Reload Scripts now mentions holding Option.
+- The config example uses English comments.
+
+### Data
+
+- Refreshed to `a86fde4e`: NBSPs in three Sagittal descriptions replaced with
+  regular spaces.
+
+### License
+
+- Bravura's OFL text now uses the actual copyright notice, not the blank
+  template.
+
 ## 1.0.1 — 2026-10-22
 
 ### Classification tables

@@ -1,14 +1,13 @@
 {
-  "source": "https://github.com/w3c-cg/smufl",
-  "branch": "gh-pages",
-  "commit": "f9d12b22ea89978720ba9defb2f4df67fabd8564",
-  "commitDate": "2026-09-05T08:17:47Z",
-  "retrieved": "2026-10-20",
-  "specVersion": "1.5 (draft)",
-  "files": [
-    "glyphnames.json",
-    "classes.json",
-    "ranges.json"
-  ],
-  "note": "Latest SMuFL editor's draft (gh-pages). Published as 'Version 1.5 (draft)' on https://smufl.formats.music/latest/."
+ "source": "https://github.com/w3c-cg/smufl",
+ "branch": "gh-pages",
+ "commit": "a86fde4e97c6dff64b1e79a08ff78e6e5f9cae6e",
+ "commitDate": "2026-10-23T09:51:16Z",
+ "retrieved": "2026-10-27",
+ "specVersion": "1.5 (draft)",
+ "files": [
+  "glyphnames.json",
+  "classes.json",
+  "ranges.json"
+ ]
 }
