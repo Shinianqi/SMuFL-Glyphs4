@@ -1,6 +1,6 @@
 # SMuFL for Glyphs 4
 
-> 文档以中文为准。[English](README.en.md) · [日本語](README.ja.md)
+> 文档以中文为准。[English](i18n/README.en.md) · [日本語](i18n/README.ja.md)
 
 Glyphs 4 是一款 macOS 应用。本仓库为它提供 SMuFL 分类表和字体元数据导出插件；数据来自 SMuFL 1.5 (draft) 官方元数据。安装器同时兼容 Glyphs 3 的目录结构。
 

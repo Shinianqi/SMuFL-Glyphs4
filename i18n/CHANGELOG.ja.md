@@ -1,6 +1,6 @@
 # Changelog
 
-> 中国語版を優先します。[中文](CHANGELOG.md) · [English](CHANGELOG.en.md)
+> 中国語版を優先します。[中文](../CHANGELOG.md) · [English](CHANGELOG.en.md)
 
 ## 1.1.0 — 2026-10-27
 

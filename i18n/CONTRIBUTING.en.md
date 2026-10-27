@@ -1,6 +1,6 @@
 # Contributing
 
-> Chinese is the primary language. [中文](CONTRIBUTING.md) · [日本語](CONTRIBUTING.ja.md)
+> Chinese is the primary language. [中文](../CONTRIBUTING.md) · [日本語](CONTRIBUTING.ja.md)
 
 ## Data
 

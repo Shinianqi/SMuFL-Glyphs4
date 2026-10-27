@@ -1,6 +1,6 @@
 # 参与贡献
 
-> 中文为准。[English](CONTRIBUTING.en.md) · [日本語](CONTRIBUTING.ja.md)
+> 中文为准。[English](i18n/CONTRIBUTING.en.md) · [日本語](i18n/CONTRIBUTING.ja.md)
 
 ## 数据
 

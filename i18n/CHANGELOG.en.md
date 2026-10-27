@@ -1,6 +1,6 @@
 # Changelog
 
-> Chinese is the primary language. [中文](CHANGELOG.md) · [日本語](CHANGELOG.ja.md)
+> Chinese is the primary language. [中文](../CHANGELOG.md) · [日本語](CHANGELOG.ja.md)
 
 ## 1.1.0 — 2026-10-27
 

@@ -1,6 +1,6 @@
 # SMuFL for Glyphs 4
 
-> 中国語版を優先します。本日本語版は中国語版からの翻訳です。[中文](README.md) · [English](README.en.md)
+> 中国語版を優先します。本日本語版は中国語版からの翻訳です。[中文](../README.md) · [English](README.en.md)
 
 Glyphs 4 は macOS アプリです。本リポジトリはその SMuFL 分類表とフォントメタデータ書き出しプラグインを提供します。データは SMuFL 1.5（draft）の公式メタデータに基づいています。インストーラは Glyphs 3 のフォルダ構成にも対応します。
 
@@ -8,11 +8,11 @@ Glyphs 4 は macOS アプリです。本リポジトリはその SMuFL 分類表
 
 起動ウィンドウ（5 つのプリセット）:
 
-![起動ウィンドウ](docs/images/startup.png)
+![起動ウィンドウ](../docs/images/startup.png)
 
 サイドバー（2 つの分類）:
 
-![サイドバー](docs/images/sidebar.png)
+![サイドバー](../docs/images/sidebar.png)
 
 ## 分類表
 
@@ -52,7 +52,7 @@ SMuFL Glyphs
 
 `release/` の pkg を使います。署名されていないため初回起動は macOS に
 ブロックされます。手順と手動インストールは
-[`release/README.ja.md`](release/README.ja.md) を参照してください。
+[`release/README.ja.md`](../release/README.ja.md) を参照してください。
 
 ## 書き出しプラグイン
 
@@ -63,7 +63,7 @@ Glyphs 4 の Script メニューから実行し、SMuFL のフォントメタデ
 `engravingDefaults`、`glyphAdvanceWidths`、`glyphsWithAnchors`、`glyphBBoxes`、
 `glyphsWithAlternates`、`ligatures`、`sets`、`optionalGlyphs`。
 
-設定は [`plugin/README.md`](plugin/README.md) を参照してください。
+設定は [`plugin/README.md`](../plugin/README.md) を参照してください。
 
 ## 再ビルド
 
@@ -72,13 +72,13 @@ python3 tools/build_all.py
 ```
 
 Python 標準ライブラリのみ使用します。サイドバー構成は
-[`data/layout/legacy.json`](data/layout/legacy.json)、アンカールールは
-[`data/layout/anchors.json`](data/layout/anchors.json) にあります。
-詳しくは [`docs/BUILD.ja.md`](docs/BUILD.ja.md)。
+[`data/layout/legacy.json`](../data/layout/legacy.json)、アンカールールは
+[`data/layout/anchors.json`](../data/layout/anchors.json) にあります。
+詳しくは [`docs/BUILD.ja.md`](../docs/BUILD.ja.md)。
 
 ## ライセンス
 
-Apache-2.0（[`LICENSE`](LICENSE)）。第三者への表示は [`NOTICE`](NOTICE)：
+Apache-2.0（[`LICENSE`](../LICENSE)）。第三者への表示は [`NOTICE`](../NOTICE)：
 SMuFL（FSA）、GlyphsSDK（Apache-2.0）、Bravura 参照データ（OFL-1.1）、
 Naruto アイコン（© YH & Kiyoaki）。
 

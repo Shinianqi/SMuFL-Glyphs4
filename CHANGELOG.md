@@ -1,6 +1,6 @@
 # Changelog
 
-> 中文为准。[English](CHANGELOG.en.md) · [日本語](CHANGELOG.ja.md)
+> 中文为准。[English](i18n/CHANGELOG.en.md) · [日本語](i18n/CHANGELOG.ja.md)
 
 ## 1.1.0 — 2026-10-27
 
